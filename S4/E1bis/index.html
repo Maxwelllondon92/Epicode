@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn border-dark">Get Started</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- home -->
+        <section id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 align-self-center mt-5">
+                        <h1>Elegant and creative solution</h1>
+                        <p>Siamo un team affiatato e usiamo Bootstrap!</p>
+                    </div>
+                    <div class="col-md-5"><img src="assets/img/team.png" alt="team" class="w-100"></div>
+                </div>
+            </div>
+            <div class="d-md-flex align-items-stretch container">
+                <div class="card m-2 bg-light bg-gradient border-0">
+                    <div class="card-body">
+                        <i class="bi bi-laptop text-success  fs-4"></i>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid
+                            soluta tenetur, aperiam cupiditate voluptatum.</p>
+                    </div>
+                </div>
+                <div class="card m-2 bg-light bg-gradient border-0">
+                    <div class="card-body">
+                        <i class="bi bi-card-list text-success  fs-4"></i>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid
+                            soluta tenetur, aperiam cupiditate voluptatum.</p>
+                    </div>
+                </div>
+                <div class="card m-2 bg-light bg-gradient border-0">
+                    <div class="card-body">
+                        <i class="bi bi-clipboard-data text-success fs-4"></i>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid
+                            soluta tenetur, aperiam cupiditate voluptatum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about-->
+        <section id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6"><img src="assets/img/together.png" alt="team" class="w-100"></div>
+                    <div class="col-md-6 mt-5">
+                        <h2>Lorem ipsum dolor sit amet</h2>
+                        <p>Assumenda ad provident nostrum ea doloremque, veritatis nesciunt eius ipsa voluptas
+                            consequuntur.
+                            Laborum sint deserunt pariatur?</p>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle text-success"></i> Sapiente, ullam placeat!</li>
+                            <li><i class="bi bi-check-circle text-success"></i> Unde, vel optio quas quia nam voluptates
+                                tempora</li>
+                            <li><i class="bi bi-check-circle text-success"></i> voluptatum sunt quisquam dolor magni
+                                adipisci</li>
+                        </ul>
+                        <p>Quam natus aliquid excepturi modi laborum, placeat eos dolore facilis reprehenderit deleniti
+                            sapiente earum saepe pariatur nobis ipsam incidunt fugit magni veniam!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row text-center container">
+                    <div class="col-3">
+                        <p class="display-6 text-success fw-bolder">232</p>
+                        <p>Clients</p>
+                    </div>
+                    <div class="col-3">
+                        <p class="display-6 text-success fw-bolder">521</p>
+                        <p>Projects</p>
+                    </div>
+                    <div class="col-3">
+                        <p class="display-6 text-success fw-bolder">1.463</p>
+                        <p>Hours of Support</p>
+                    </div>
+                    <div class="col-3">
+                        <p class="display-6 text-success fw-bolder">15</p>
+                        <p>Hard Workers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- servizi -->
+        <section id="services" class="bg-light">
+            <div class="container text-center py-4">
+                <h2 class="mt-5 mb-4 text-uppercase fw-bold">Services</h2>
+                <p>What we offer is simple and relaiable</p>
+                <div class="container-fluid row gy-4">
+                    <div class="col-md-4">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <i class="bi bi-globe text-success fs-4"></i>
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                    aliquid
+                                    soluta tenetur, aperiam cupiditate voluptatum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <i class="bi bi-file-earmark-text text-success  fs-4"></i>
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                    aliquid
+                                    soluta tenetur, aperiam cupiditate voluptatum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <i class="bi bi-speedometer2 text-success  fs-4"></i>
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                    aliquid
+                                    soluta tenetur, aperiam cupiditate voluptatum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <i class="bi bi-hypnotize text-success  fs-4"></i>
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                    aliquid
+                                    soluta tenetur, aperiam cupiditate voluptatum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <i class="bi bi-display text-success  fs-4"></i>
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                    aliquid
+                                    soluta tenetur, aperiam cupiditate voluptatum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <i class="bi bi-bank text-success  fs-4"></i>
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                    aliquid
+                                    soluta tenetur, aperiam cupiditate voluptatum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- portfolio -->
+        <section id="portfolio">
+            <div class="text-center py-4">
+                <h2 class="mt-5 mb-4 text-uppercase fw-bold">Portfolio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <ul class="nav nav-tabs justify-content-center border-0">
+                    <li class="nav-item">
+                        <a class="nav-link border-0 active" aria-current="page" href="#">ALL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link border-0" href="#">APP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link border-0" href="#">CARD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link border-0" href="#">WEB</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- testimonials -->
+        <section id="testimonials" class="bg-light">
+            <div class="container text-center py-4">
+                <h2 class="mt-5 mb-4 text-uppercase fw-bold">Testimonials</h2>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container-fluid row gy-4">
+                                <div class="col-md-4">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <p class="card-text pb-4"><i class="bi bi-quote text-light fs-4"> </i>Lorem
+                                                ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                                aliquid
+                                                soluta tenetur, aperiam cupiditate voluptatum.</p>
+                                        </div>
+                                        <div class="card-footer bg-light text-start py-0">
+                                            <div class="card-footer-offset">
+                                                <img src="assets/img/user.png" class="d-block me-auto" alt="">
+                                                <p class="my-1 fw-bold">Thomas Anderson</p>
+                                                <p class="my-1 fw-light">Programmer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <p class="card-text pb-4"><i class="bi bi-quote text-light fs-4"> </i>Lorem
+                                                ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                                aliquid
+                                                soluta tenetur, aperiam cupiditate voluptatum.</p>
+                                        </div>
+                                        <div class="card-footer bg-light text-start py-0">
+                                            <div class="card-footer-offset">
+                                                <img src="assets/img/user.png" class="d-block me-auto" alt="">
+                                                <p class="my-1 fw-bold">Ned Leeds</p>
+                                                <p class="my-1 fw-light">Student</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <p class="card-text pb-4"><i class="bi bi-quote text-light fs-4"> </i>Lorem
+                                                ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                                aliquid
+                                                soluta tenetur, aperiam cupiditate voluptatum.</p>
+                                        </div>
+                                        <div class="card-footer bg-light text-start py-0">
+                                            <div class="card-footer-offset">
+                                                <img src="assets/img/user.png" class="d-block me-auto" alt="">
+                                                <p class="my-1 fw-bold">Roy Batty</p>
+                                                <p class="my-1 fw-light">Replicant</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container-fluid row gy-4">
+                                <div class="col-md-4">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <p class="card-text pb-4"><i class="bi bi-quote text-light fs-4"> </i>Lorem
+                                                ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                                aliquid
+                                                soluta tenetur, aperiam cupiditate voluptatum.</p>
+                                        </div>
+                                        <div class="card-footer bg-light text-start py-0">
+                                            <div class="card-footer-offset">
+                                                <img src="assets/img/user.png" class="d-block me-auto" alt="">
+                                                <p class="my-1 fw-bold">Simon Willson</p>
+                                                <p class="my-1 fw-light">Student</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <p class="card-text pb-4"><i class="bi bi-quote text-light fs-4"> </i>Lorem
+                                                ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                                aliquid
+                                                soluta tenetur, aperiam cupiditate voluptatum.</p>
+                                        </div>
+                                        <div class="card-footer bg-light text-start py-0">
+                                            <div class="card-footer-offset">
+                                                <img src="assets/img/user.png" class="d-block me-auto" alt="">
+                                                <p class="my-1 fw-bold">Sara Willson</p>
+                                                <p class="my-1 fw-light">Design Student</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <p class="card-text pb-4"><i class="bi bi-quote text-light fs-4"> </i>Lorem
+                                                ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                                aliquid
+                                                soluta tenetur, aperiam cupiditate voluptatum.</p>
+                                        </div>
+                                        <div class="card-footer bg-light text-start py-0">
+                                            <div class="card-footer-offset">
+                                                <img src="assets/img/user.png" class="d-block me-auto" alt="">
+                                                <p class="my-1 fw-bold">Mark Willson</p>
+                                                <p class="my-1 fw-light">Design Student</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container-fluid row gy-4">
+                                <div class="col-md-4">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <p class="card-text pb-4"><i class="bi bi-quote text-light fs-4"> </i>Lorem
+                                                ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                                aliquid
+                                                soluta tenetur, aperiam cupiditate voluptatum.</p>
+                                        </div>
+                                        <div class="card-footer bg-light text-start py-0">
+                                            <div class="card-footer-offset">
+                                                <img src="assets/img/user.png" class="d-block me-auto" alt="">
+                                                <p class="my-1 fw-bold">Alice Willson</p>
+                                                <p class="my-1 fw-light">Design Student</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <p class="card-text pb-4"><i class="bi bi-quote text-light fs-4"> </i>Lorem
+                                                ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                                aliquid
+                                                soluta tenetur, aperiam cupiditate voluptatum.</p>
+                                        </div>
+                                        <div class="card-footer bg-light text-start py-0">
+                                            <div class="card-footer-offset">
+                                                <img src="assets/img/user.png" class="d-block me-auto" alt="">
+                                                <p class="my-1 fw-bold">Francis Willson</p>
+                                                <p class="my-1 fw-light">Design Student</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <p class="card-text pb-4"><i class="bi bi-quote text-light fs-4"> </i>Lorem
+                                                ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                                aliquid
+                                                soluta tenetur, aperiam cupiditate voluptatum.</p>
+                                        </div>
+                                        <div class="card-footer bg-light text-start py-0">
+                                            <div class="card-footer-offset">
+                                                <img src="assets/img/user.png" class="d-block me-auto" alt="">
+                                                <p class="my-1 fw-bold">Jessica Willson</p>
+                                                <p class="my-1 fw-light">Design Student</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CTA -->
+        <section class="bg-success text-center text-white p-5">
+            <h2>Call To Action</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sapiente modi, ratione voluptatum sint iusto.
+                Autem, doloremque repellat? Nobis id magni recusandae cupiditate ut qui blanditiis saepe reprehenderit
+                sint non.</p>
+            <button class="btn text-white border border-white text-uppercase">Call to Action</button>
+        </section>
+        <!-- team -->
+        <section id="team" class="bg-light">
+            <div class="container text-center py-4">
+                <h2 class="mt-5 mb-4 text-uppercase fw-bold">Team</h2>
+                <p>What we offer is simple and relaiable</p>
+                <div class="container-fluid row gy-4">
+                    <div class="col-md-4">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <img src="assets/img/char1.jpg" alt="" class="w-100 mb-3">
+                                <p class="h5 fw-bold card-title">Mark Jefferson</p>
+                                <p class="h6 fw-light">Chief Executive Officer</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                    aliquid
+                                    soluta tenetur, aperiam cupiditate voluptatum.</p>
+                                <i class="bi bi-facebook"> </i><i class="bi bi-linkedin"> </i><i class="bi bi-twitter">
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <img src="assets/img/char2.jpg" alt="" class="w-100 mb-3">
+                                <p class="h5 fw-bold card-title">Celina White</p>
+                                <p class="h6 fw-light">Chief Designer</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                    aliquid
+                                    soluta tenetur, aperiam cupiditate voluptatum.</p>
+                                <i class="bi bi-facebook"> </i><i class="bi bi-linkedin"> </i><i class="bi bi-twitter">
+                                </i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <img src="assets/img/char3.jpg" alt="" class="w-100 mb-3">
+                                <p class="h5 fw-bold card-title">Hanna Chen</p>
+                                <p class="h6 fw-light">Product Manager</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                    aliquid
+                                    soluta tenetur, aperiam cupiditate voluptatum.</p>
+                                <i class="bi bi-facebook"> </i><i class="bi bi-linkedin"> </i><i class="bi bi-twitter">
+                                </i>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="container text-center">
+                <h2 class="mt-5 mb-4 text-uppercase fw-bold">Contact</h2>
+                <p>Deleniti neque ab quos laborum a quisquam culpa iste in possimus tenetur doloribus reiciendis
+                    voluptate</p>
+                <div class="container row gx-4 mb-3">
+                    <div class="col-md-5">
+                        <div class="p-3 text-start bg-light border border-4 border-success border-start-0 border-end-0 ">
+                            <dl>
+                                <dt>Location</dt>
+                                <dd>This Place in the map</dd>
+                                <dt>Email</dt>
+                                <dd>name.name@domain.com</dd>
+                                <dt>Call</dt>
+                                <dd>+00 1234567890</dd>
+                            </dl>
+                            <iframe class="w-100"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.064048848277!2d-12.312946284174588!3d-37.068845199558496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3cf6c38689fae72!2zMzfCsDA0JzA3LjkiUyAxMsKwMTgnMzguNyJX!5e1!3m2!1sit!2sit!4v1640087450018!5m2!1sit!2sit"
+                                height="300" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-7 d-flex align-items-stretch">
+                        <form id="form" class="p-3 bg-light text-start border border-4 border-teal border-start-0 border-end-0 flex-fill">
+                            <div class="row">
+                                <div class="col mb-3">
+                                    <label class="form-label" for="name">Name</label>
+                                    <input class="form-control" id="name" type="text" placeholder="Name" />
+                                </div>
+                                <div class="col mb-3">
+                                    <label class="form-label" for="email">Email</label>
+                                    <input class="form-control" id="email" type="email" placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="subject">Subject</label>
+                                <input class="form-control" id="subject" type="text" placeholder="Subject" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="message">Message</label>
+                                <textarea class="form-control" id="message" type="text" placeholder="Message"
+                                    style="height: 10rem;"></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button class="btn btn-success" id="submitButton" type="submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center bg-light p-5">
+        <p class="display-6 fw-bold">Epicode</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad repudiandae cum, optio commodi quas veniam dolore
+            repellat similique eaque, pariatur, ab amet neque voluptate. Reiciendis assumenda sit facere quibusdam quis!
+        </p>
+        <button class="btn btn-dark text-light"><i class="bi bi-facebook"></i></button>
+        <button class="btn btn-dark text-light"><i class="bi bi-instagram"></i></button>
+        <button class="btn btn-dark text-light"><i class="bi bi-twitter"></i></button>
+        <button class="btn btn-dark text-light"><i class="bi bi-linkedin"></i></button>
+        <button class="btn btn-dark text-light"><i class="bi bi-skype"></i></button>
+        <!-- <a href="https://storyset.com/people">People illustrations by Storyset</a> -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

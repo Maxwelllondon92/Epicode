@@ -1,0 +1,114 @@
+/* IMPOSTAZIONI GENERALI */
+body{
+    font-family: raleway,'sans-serif';
+    line-height: 1.5rem;
+}
+a{
+    color: orangered;
+}
+strong{
+    color:royalblue;
+}
+b{
+    font-weight: bold;
+}
+hr{
+    display:none;
+}
+mark{
+    background-color: royalblue;
+    color:white;
+}
+kbd{
+    color:yellow;
+    font-weight: bold;
+}
+/* HEADER */
+header{
+    background-color: cornflowerblue;
+    border-bottom:royalblue solid 3px;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+header h1{
+    text-transform:uppercase;
+    color:#fff;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+header span{
+    background-color: #fff;
+    color:cornflowerblue;
+    width: 50vw;
+}
+header h2{
+    line-height: 3rem;
+    font-variant: small-caps;
+}
+/* MAIN */
+main{
+    padding:0px 20px;
+}
+/* ELEMENTI NEL MAIN */
+main div{
+    border-bottom: black dashed 1px;
+    padding-bottom:30px;
+}
+main h2{
+    text-transform: uppercase;
+    color:cornflowerblue;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+main h3{
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 3rem;
+}
+main figure{
+    text-align: center;
+}
+main figure img{
+    outline: gray solid 1px;
+    outline-offset: 8px;
+    margin: 10px;
+}
+main address{
+    margin:20px 0px;
+    line-height: 1.1em;
+}
+main blockquote{
+    text-align: center;
+    font-style: italic;
+    background-color: lightgrey;
+    padding:10px;
+    margin:10px;
+    border-radius: 10px;
+}
+main ul{
+    padding-left: 30px;
+    line-height: 1.5em;
+    margin:10px 0px;
+}
+main dd{
+    padding-left:30px;
+}
+/* FOOTER */
+footer{
+    background-color:rgb(60, 60, 60);
+    color:white;
+    text-align: center;
+    border-top:royalblue solid 3px;
+    margin-top: 30px;
+    padding:0px 10px;
+    padding-top:10px;
+}
+footer small{
+    color: slategray;
+}
+footer p{
+    margin-bottom:20px;
+}

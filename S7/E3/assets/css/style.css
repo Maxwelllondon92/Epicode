@@ -1,0 +1,361 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.page,
+#sidebar {
+  display: none;
+}
+.page {
+  height: 80vh;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  text-align: center;
+}
+
+#home h2 {
+  font-size: 4rem;
+  letter-spacing: 1.7px;
+}
+
+#home p {
+  font-size: 1.2rem;
+  margin: 1.5rem 0 3rem;
+  padding: 0 15%;
+  line-height: 1.3;
+}
+
+#home a {
+  color: #fff;
+  border: none;
+  padding: 0.8em 2em;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 45px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+#home button:hover {
+  background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #24243e, #302b63, #0f0c29);
+}
+
+#epico {
+  background: -webkit-linear-gradient(45deg, #fa0054, #00dddc);
+  font-size: 1.2em;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#sidebarBtn {
+  cursor: pointer;
+}
+
+header {
+  position: sticky;
+  z-index: 99;
+  top: 0;
+  width: 100%;
+  height: 5vh;
+}
+header div {
+  position: relative;
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+}
+header div #logo {
+  font-size: 2rem;
+  display: inline-block;
+  margin: 1rem;
+}
+header div #sidebarBtn {
+  position: absolute;
+  top: calc(50% - 0.75rem);
+  right: 1rem;
+  font-size: 1.5rem;
+}
+header #sidebar {
+  position: absolute;
+  width: 100%;
+  display: none;
+}
+header #sidebar ul {
+  list-style: none;
+  position: relative;
+}
+header #sidebar ul li {
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  padding: 1rem 0.5rem;
+}
+
+/* SECTION Description */
+#accordion {
+  display: block;
+  width: 60%;
+  min-width: 330px;
+  margin: 10vh auto;
+  margin-top: 50px;
+}
+
+#accordion p {
+  color: rgb(75, 74, 74);
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.accordion-head {
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #eef2f3,
+    #8e9eab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.accordion-head > i {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 0 1rem;
+}
+.accordion-head > h3 {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin: 1rem 0;
+}
+
+.accordion-body {
+  padding: 2rem 1rem 1rem 1rem;
+  position: relative;
+  top: -20px;
+  display: none;
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ffffff, #ece9e6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.accordion-body > p {
+  line-height: 1.5;
+}
+
+/* SECTION COVERSION */
+
+#conversion .container {
+  text-align: center;
+  height: 90vh;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#conversion h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #142f43;
+}
+
+.form {
+  margin-top: 4em;
+}
+
+.form-field {
+  display: flex;
+  justify-content: center;
+}
+
+.form-field select {
+  margin-right: 1em;
+  width: 200px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.form-field select:focus {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.form div {
+  margin: 2em 0;
+}
+
+#conversion input {
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+#conversion button {
+  margin: 1em 2em 2em 0;
+  padding: 0.7em 1em;
+  background-color: #fff;
+  font-size: 1em;
+  color: #000;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  text-transform: uppercase;
+  outline: none;
+  letter-spacing: 3px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+#conversion button i {
+  margin-right: 0.5em;
+}
+
+#conversion #btnConvert {
+  color: #3fa796;
+}
+
+#conversion #btnClear {
+  color: #ff5959;
+}
+
+#conversion #btnConvert:hover {
+  background-color: #3fa796;
+  color: #fff;
+}
+
+#conversion #btnClear:hover {
+  background-color: #ff5959;
+  color: #fff;
+}
+
+#conversion .btns {
+  margin-top: 2em;
+}
+
+#change {
+  cursor: pointer;
+}
+
+#change:hover {
+  color: #ff5959;
+}
+
+/*contacts*/
+#contacts * {
+  box-sizing: border-box;
+}
+
+#contacts fieldset {
+  border: 1px solid #ccc;
+  padding: 0 2rem;
+  padding-bottom: 1rem;
+}
+#contacts span {
+  margin-left: 0.5em;
+}
+#contacts #form {
+  position: relative;
+  top: 4vh;
+  width: 60vw;
+  left: 20vw;
+  line-height: 30px;
+}
+#contacts legend {
+  color: #0f0c29;
+  font-weight: bold;
+  font-size: 13px;
+}
+#contacts label {
+  display: inline-block;
+  width: 200px;
+}
+
+#contacts button {
+  padding: 0.5em;
+  background-color: #fff;
+  font-size: 1em;
+  color: #000;
+  margin-right: 2em;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  outline: none;
+  margin-top: 0.6em;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  align-items: center;
+  text-align:center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: auto;
+  height: 15vh;
+}
+
+footer p {
+  color: #ddd;
+  margin: 0.5em 0;
+  font-size: 0.8em;
+}
+
+footer a {
+  margin: 0.5em 0;
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+
+/* toglie le freccie dell'input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

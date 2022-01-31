@@ -17,17 +17,29 @@
         section {
             display: flex;
             flex-wrap: wrap;
+            justify-content: space-evenly;
         }
 
         div {
+            width: 200px;
             padding: 1rem 2rem;
-            background: #757F9A;
+            margin-bottom: 1rem;
+            background: #E0EAFC;
             /* fallback for old browsers */
-            background: -webkit-linear-gradient(to top, #D7DDE8, #757F9A);
+            background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC);
             /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to top, #D7DDE8, #757F9A);
+            background: linear-gradient(to bottom, #CFDEF3, #E0EAFC);
             /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+            border-radius: 20px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ol {
+            padding-left: 25px;
         }
     </style>
 </head>
@@ -37,9 +49,84 @@
     <hr>
     <section>
         <div>
-            <h2>Settimana 8 - TypeScript</h2>
+            <h2>1 - HTML & CSS I</h2>
             <ol>
-                <li><a href="S8/E1/index.html">Gioco dei Numeri Casuali</a></li>
+                <li><a target="_blank" href="S1/E1/curriculum.html">Curriculum</a></li>
+                <li><a target="_blank" href="S1/E2/index.html">Studio degli Elementi</a></li>
+                <li><a target="_blank" href="S1/E3/curriculum.html">Studio di CSS I</a></li>
+                <li><a target="_blank" href="S1/E4/articolo.html">Studio di CSS II</a></li>
+            </ol>
+        </div>
+        <div>
+            <h2>2 - HTML & CSS II</h2>
+            <ol>
+                <li><a target="_blank" href="S2/E1/articolo.html">Studio di CSS III</a></li>
+                <li><a target="_blank" href="S2/E2/articolo.html">Studio di CSS IV</a></li>
+                <li><a target="_blank" href="S2/E3/flexbox/articolo.html">CSS Flexbox</a></li>
+                <li><a target="_blank" href="S2/E3/grid/articolo.html">CSS Grid</a></li>
+                <li><a target="_blank" href="S2/E4/frase/frase.html">CSS Animations I</a></li>
+                <li><a target="_blank" href="S2/E4/postit/postit.html">CSS Animations II</a></li>
+            </ol>
+        </div>
+        <div>
+            <h2>3 - SASS & Bootstrap</h2>
+            <ol>
+                <li><a target="_blank" href="S3/E1/index.html">Studio di SASS I</a></li>
+                <li><a target="_blank" href="S3/E2/index.html">Studio di SASS II</a></li>
+                <li><a target="_blank" href="S3/E3/index.html">Pratica con il Grid System</a></li>
+                <li><a target="_blank" href="S3/E4/index.html">Bootstrap</a></li>
+            </ol>
+        </div>
+        <div>
+            <h2>4 - JavaScript I</h2>
+            <ol>
+                <li><a target="_blank" href="S4/E1/index.html">Introduzione a JS</a></li>
+                <li><a target="_blank" href="S4/E1bis/index.html">One Page Website</a></li>
+                <li><a target="_blank" href="S4/E2/index.html">Console JS I</a></li>
+                <li><a target="_blank" href="S4/E3/index.html">Console JS II</a></li>
+                <li><a target="_blank" href="S4/E4/index.html">Uso degli Array</a></li>
+            </ol>
+        </div>
+        <div>
+            <h2>5 - JavaScript II</h2>
+            <ol>
+                <li><a target="_blank" href="S5/E1/costrutto-if.html">IF</a></li>
+                <li><a target="_blank" href="S5/E1/costrutto-if-else.html">IF-ELSE</a></li>
+                <li><a target="_blank" href="S5/E1/costrutto-if-elseif-else.html">IF-ELSEIF-ELSE</a></li>
+                <li><a target="_blank" href="S5/E1/if-date.html">IF-DATE</a></li>
+                <li><a target="_blank" href="S5/E1/if-fantasia.html">Costrutti IF</a></li>
+                <li><a target="_blank" href="S5/E2/fibonacci.html">Numero di Fibonacci</a></li>
+                <li><a target="_blank" href="S5/E2/tabelline.html">Ciclo While I</a></li>
+                <li><a target="_blank" href="S5/E2/while.html">Ciclo While II</a></li>
+                <li><a target="_blank" href="S5/E3/tabella.html">Ciclo While III</a></li>
+                <li><a target="_blank" href="S5/E4/index.html">Cubo Magico</a></li>
+                <li><a target="_blank" href="S5/E5/index.html">Lista Dinamica</a></li>
+            </ol>
+        </div>
+        <div>
+            <h2>6 - jQuery</h2>
+            <ol>
+                <li><a target="_blank" href="S6/E1/index.html">Form</a></li>
+                <li><a target="_blank" href="S6/E2/index.html">Form con Lista</a></li>
+                <li><a target="_blank" href="S6/E3/index.html">Accordion</a></li>
+                <li><a target="_blank" href="S6/E4/index.html">Manipolazione CSS</a></li>
+                <li><a target="_blank" href="S6/E5/index.html">Carousel</a></li>
+                <li><a target="_blank" href="S6/E6/index.html">Interattività</a></li>
+                <li><a target="_blank" href="S6/E7/index.html">Chiamata AJAX</a></li>
+                <li><a target="_blank" href="S6/E8/index.html">Validazione Form</a></li>
+            </ol>
+        </div>
+        <div>
+            <h2>7 - Ripasso</h2>
+            <ol>
+                <li><a target="_blank" href="S7/E2/index.html">Math e Switch</a></li>
+                <li><a target="_blank" href="S7/E3/index.html">Cambio Valuta</a></li>
+            </ol>
+        </div>
+        <div>
+            <h2>8 - TypeScript</h2>
+            <ol>
+                <li><a target="_blank" href="S8/E1/index.html">Gioco dei Numeri Casuali</a></li>
             </ol>
         </div>
     </section>

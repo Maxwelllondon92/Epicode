@@ -1,0 +1,59 @@
+/*>>Variables*/
+/*Breakpoints*/
+/*Boxes*/
+/*Colors*/
+/*Fonts*/
+/*>>Mixins*/
+/*>>Style*/
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: helvetica,sans-serif; }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  background: linear-gradient(#223, #4b4b70);
+  color: #ddd;
+  padding: 2rem; }
+  nav h1 {
+    font-size: 2rem; }
+  nav ul li {
+    list-style: none;
+    margin: 2rem 1rem; }
+    nav ul li a:link, nav ul li a:visited {
+      color: #ddd;
+      text-decoration: none; }
+
+@media screen and (max-width: 768px) {
+  nav div {
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    transition: height 0.5s ease-out; } }
+
+@media (max-width: 576px) {
+  #menuMobile {
+    display: none; }
+  nav div ul {
+    margin: 0 2em 0 0; }
+  nav div ul li {
+    display: inline-block;
+    margin: 0 0 0 1.3em; }
+  nav div ul li a {
+    text-transform: none;
+    color: #555; } }
+
+input#menuButton {
+  display: none; }
+
+input#menuButton:checked ~ div {
+  height: 150px; }

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+	<table class="table" style="width:400px;margin:0 auto">
+    <thead>
+      <tr>
+        <th scope="col">Studente</th>
+        <th scope="col">Voto</th>
+      </tr>
+    </thead>
+    <tbody id="voti">
+      <tr>
+        <th scope="row">Luigi</th>
+        <td>80</td>
+      </tr>
+      <tr>
+        <th scope="row">Giovanni</th>
+        <td>77</td>
+      </tr>
+      <tr>
+        <th scope="row">Mariuccia</th>
+        <td>88</td>
+      </tr>
+          <tr>
+        <th scope="row">Pina</th>
+        <td>95</td>
+      </tr>
+      <tr>
+        <th scope="row">Pino</th>
+        <td>68</td>
+      </tr>
+    </tbody>
+    <thead>
+      <tr><td colspan="2">I voti medi sono calcolati come segue :</td></tr>
+      <tr>
+        <th scope="col">Range</th>
+        <th scope="col">Valutazione media</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">&lt;60</th>
+        <td>E</td>
+      </tr>
+      <tr>
+        <th scope="row">&lt;70</th>
+        <td>D</td>
+      </tr>
+      <tr>
+        <th scope="row">&lt;80</th>
+        <td>C</td>
+      </tr>
+          <tr>
+        <th scope="row">&lt;90</th>
+        <td>B</td>
+      </tr>
+      <tr>
+        <th scope="row">&lt;100</th>
+        <td>A</td>
+      </tr>
+    </tbody>
+  </table>
+  
+
+  <script>
+    const nomi = document.querySelectorAll('#voti th')
+    const tabVoti = document.querySelectorAll('#voti td')
+    var voti = [];
+
+    for (i = 0; i < tabVoti.length; i++) {
+      voti.push(
+        parseInt(tabVoti[i].innerHTML)
+        )
+    }
+    
+    let gruppoSomma = voti.reduce(arrayReduce);
+    let media = (gruppoSomma / tabVoti.length);
+    console.log('La media totale dei voti è: ' + media);
+
+    function arrayReduce(totale, valore) {
+            return totale + valore;              
+        }
+
+    //var mediaSemplice = Math.floor(media/10)
+    // switch (mediaSemplice) {
+    //   case 6 : 
+    //     console.log("La valutazione media è D")
+    //     break
+    //   case 7 : 
+    //     console.log("La valutazione media è C")
+    //     break
+    //   case 8 : 
+    //     console.log("La valutazione media è B")
+    //     break
+    //   case 9: 
+    //     console.log("La valutazione media è A")
+    //     break
+    //   default: 
+    //     console.log("La valutazione media è E")
+    // }   
+
+
+    switch (true) {
+      case media>=60 && media<70 : 
+        console.log("La valutazione media è D")
+        break
+      case media>=70 && media<80 : 
+        console.log("La valutazione media è C")
+        break
+      case media>=80 && media<90 : 
+        console.log("La valutazione media è B")
+        break
+      case media>=90: 
+        console.log("La valutazione media è A")
+        break
+      default: 
+        console.log("La valutazione media è E")
+    }   
+
+  </script>
+</body>
+
+</html>

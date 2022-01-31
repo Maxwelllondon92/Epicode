@@ -1,0 +1,15 @@
+div{
+    margin-bottom: 10px;
+    margin-left: 30%;
+}
+button{
+    margin-left: 30%;
+}
+p{
+    margin: 0;
+}
+
+.js-error-input-city{
+    color: red;
+    display: none;
+}

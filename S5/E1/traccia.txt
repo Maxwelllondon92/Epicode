@@ -1,0 +1,4 @@
+4 file: 1 file -> costrutto if, 
+2 file -> costrutto if else, 
+3 file -> if else if else, 
+4 file (con fantasia non semplice confronto di variabili) -> if, if con operatore logico, if else, if else if else

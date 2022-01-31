@@ -1,0 +1,41 @@
+@import '_vars';
+@import '_mixins';
+/*>>Style*/
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: helvetica,sans-serif;    
+}
+nav{
+    @include nav;
+}
+@media screen and (max-width:768px) {
+    nav div {
+        height: 0;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        transition: height 0.5s ease-out;
+    }
+}
+@media #{map-get($m,xs)} {
+    #menuMobile {display: none;}
+    nav div ul {
+        margin: 0 2em 0 0;
+    }
+    nav div ul li {
+        display: inline-block;
+        margin: 0 0 0 1.3em;
+    }
+    nav div ul li a {
+        text-transform: none;
+        color: #555;
+    }
+}
+input#menuButton {
+    display: none;
+}
+input#menuButton:checked ~ div {
+   height: 150px; 
+}

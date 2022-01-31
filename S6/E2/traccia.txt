@@ -1,0 +1,35 @@
+quando il documento è pronto...
+
+  aggiungo la riga utilizzando click event handler con il metodo .on()
+
+    ottieni il nome .val()
+
+    ottiengo il cognome
+
+    ottengo l'età
+
+    variabile per controllare se il modulo deve essere elaborato o meno
+
+    applico la logica di convalida
+
+    termino la funzione se processForm è falso
+
+    disabilito il pulsante utilizzando il metodo .prop()
+
+    creo un ritardo di 2 sec
+
+      imposto la tabella in HTML
+
+      faccio l'appending della tabella HTML con .append()
+
+      tolgo la proprietà disabled dal pulsante
+
+      resetto i valori nel form con .trigger()
+
+  focus l'event handler per il nome in input utilizzando .on() e nascondo l'errore
+
+  focus l'event handler per il cognome in input utilizzando .on() e nascondo l'errore
+
+  focus l'event handler per l'età in input utilizzando .on() e nascondo l'errore
+
+  click event handler per il pulsante Cancella riga

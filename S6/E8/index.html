@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Form d'Iscrizione al Club</h1>
+
+    <form action="" id="form">
+        <fieldset>
+            <legend>Informazioni Richieste</legend>
+            <label for="email">Email</label>
+            <input type="email" name="email" id=email><span></span><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Almeno 6 Caratteri"><span></span><br>
+            <label for="passwordConfirm">Conferma Password</label>
+            <input type="password" name="passwordConfirm" id="passwordConfirm"><span></span><br>
+        </fieldset>
+        <fieldset>
+            <legend>Informazioni Personali</legend>
+            <label for="tipo">Tipo iscrizione </label><input type="radio" name="tipo" value="Persona" id="persona" checked> Persona <input type="radio" name="tipo" value="Azienda" id="azienda">Azienda<br>
+            
+            <label for="nomeAzienda">Nome Azienda</label>
+            <input type="text" name="nomeAzienda" id="nomeAzienda"><span></span><br>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome"><span></span><br>
+            <label for="cognome">Cognome</label>
+            <input type="text" name="cognome" id="cognome"><span></span><br>
+            <label for="tel">Telefono</label>
+            <input type="tel" name="tel" id="tel" placeholder="Es. 123-1234567"><span></span><br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Invia la tua Richiesta</legend>
+            <button type="submit" id="submit">Invia</button>
+            <button type="reset" id="reset">Resetta</button>
+        </fieldset>
+    </form>
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

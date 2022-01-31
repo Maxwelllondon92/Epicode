@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+
+}
+main{
+    width: 60%;
+    margin: auto;
+    display: block;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 50px 100px;
+}
+h2{
+    margin-top: 0;
+    color:cornflowerblue;
+}
+input,button{
+    width:50%;
+    padding:0.5rem;
+}
+button{
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    border:0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin:10px 0;
+}
+button:hover{
+    background-color: limegreen;
+    
+}
+.avviso,input::placeholder{
+    font-weight: bold;
+}
+.avviso{
+    margin-left: 1em;
+}

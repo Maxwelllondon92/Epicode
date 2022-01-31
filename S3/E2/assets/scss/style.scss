@@ -1,0 +1,56 @@
+@import "_vars";
+@import "_mixins";
+/*>> Style*/
+body {
+    @include bg(color, $cMain);
+    @include fPara;
+}
+header {
+    @include bg(color, $cMain);
+    @include sticky;
+    nav ul {
+        @include flex(center, left);
+        @include sMobile {
+            flex-wrap: wrap;
+        }
+        padding: 1rem;
+        li {
+            margin-right: $bIndent;
+            list-style: $fList;
+        }
+    }
+}
+#main {
+    @include sTablet {
+        @include flex(top, space-between);
+    }
+}
+article {
+    padding: $bMainPad;
+}
+aside {
+    @include stain;
+
+    flex: 2 0 25%;
+    padding: $bMainPad;
+    ul {
+        @include flex(center, center);
+        flex-direction: column;
+        li {
+            list-style: $fList;
+            margin-bottom: $bRule;
+        }
+    }
+}
+h1 {
+    @include fTitle;
+}
+h2 {
+    @include fSubtitle;
+}
+p {
+    @include fPara;
+}
+button {
+    margin-bottom: $bRule;
+}

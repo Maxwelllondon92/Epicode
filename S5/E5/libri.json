@@ -1,0 +1,42 @@
+[
+    {
+        "titolo":"Guida galattica per autostoppisti",
+        "prezzo":42
+    },
+    {
+        "titolo":"L'alchimista",
+        "prezzo":8
+    },
+    {
+        "titolo":"Il signore degli anelli",
+        "prezzo":20
+    },
+    {
+        "titolo":"La storia infinita",
+        "prezzo":14
+    },
+    {
+        "titolo":"Harry potter e il prigioniero di Azkaban",
+        "prezzo":30
+    },
+    {
+        "titolo":"20.000 leghe sotto i mari",
+        "prezzo":20
+    },
+    {
+        "titolo":"Assasin's creed 2",
+        "prezzo":11
+    },
+    {
+        "titolo":"Metro redux",
+        "prezzo":25
+    },
+    {
+        "titolo":"SonderKommando",
+        "prezzo":22
+    },
+    {
+        "titolo":"La torre nera - La chiamata dei tre",
+        "prezzo":17
+    }
+]

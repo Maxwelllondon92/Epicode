@@ -1,0 +1,20 @@
+.js-altezza-larghezza-container{
+    width: 10px;
+    height: 10px;
+    background-color: crimson;
+}
+.accordion li p{
+    display: none;
+}
+
+#barContainer{
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+}
+#progress{
+    width: 0%;
+    height: 100%;
+    background-color: limegreen;
+}

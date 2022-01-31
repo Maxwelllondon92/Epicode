@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolo a tendina</title>
+</head>
+
+<body>
+    <h2>Inserisci Valori</h2>
+    <input type="number" class="numbers">
+    <input type="number" class="numbers">
+    <h2>Seleziona Operazione</h2>
+    <select name="operation" id="operation">
+        <option value="+">Somma</option>
+        <option value="-">Sottrazione</option>
+        <option value="*">Moltiplicazione</option>
+        <option value="/">Divisione</option>
+        <option value="^">Potenza</option>
+        <option value="rt">Radice</option>
+    </select>
+    <button type="button" id="calc">Calcola</button>
+    <h2 id="result"></h2>
+    <!-- SCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(() => {
+            const calc = $('#calc');
+            calc.on('click', function () {
+                const numbers = $('.numbers');
+                const result = $('#result');
+                const operation = $('#operation option:selected');
+
+                let x = parseInt(numbers[0].value);
+                let y = parseInt(numbers[1].value);
+                let total = 0;
+                switch (operation.val()) {
+                    case '+':
+                        total = parseInt(numbers[0].value) + parseInt(numbers[1].value);
+                        break;
+                    case '-':
+                        total = parseInt(numbers[0].value) - parseInt(numbers[1].value);
+                        break;
+                    case '*':
+                        total = parseInt(numbers[0].value) * parseInt(numbers[1].value);
+                        break;
+                    case '/':
+                        total = parseInt(numbers[0].value) / parseInt(numbers[1].value);
+                        break;
+                    case '^':
+                        total = Math.pow(parseInt(numbers[0].value), parseInt(numbers[1].value));
+                        break;
+                    case 'rt':
+                        total = Math.pow(parseInt(numbers[0].value), 1 / parseInt(numbers[1].value));
+                }
+                result.text('Il risultato della ' + operation.text().toLowerCase() + " tra " + x + " e " + y + " è: " + total);
+            });
+        })
+    </script>
+</body>
+
+</html>

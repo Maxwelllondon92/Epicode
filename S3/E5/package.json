@@ -1,0 +1,11 @@
+{
+  "name": "e5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/scss/style.scss assets/css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

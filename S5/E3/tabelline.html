@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>body{text-align: center;}strong{font-size:1.5em}</style>
+    <title>While Tabelline</title>
+</head>
+<body>
+    <h1>LE TABELLINE</h1>
+    <hr>
+    <p id="demo"></p>
+    <script>
+        const demo = document.getElementById("demo");
+        var counter = 1;
+        while(counter<11){
+            let oper = 1;
+            demo.innerHTML += "<br><strong>Tabellina del "+counter+"</strong><br>";
+            while(oper<11){
+                demo.innerHTML += counter+" x "+oper+" = "+(oper*counter)+"<br>"
+                oper++
+            }
+            counter++;
+        }
+    </script>
+</body>
+</html>

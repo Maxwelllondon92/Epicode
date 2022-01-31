@@ -1,0 +1,16 @@
+/* Bottoni */
+a{
+    display: inline-block;
+    text-decoration: none;
+    padding: $bLinkPad;
+    margin-right: $bLinkMarR;
+    transition: all 0.3s;
+    border: rgba(0,0,0,0) solid 3px;
+    background-color: $cHigh;
+    color: $cMain;
+    &:hover{
+        border: $cLight solid 3px;
+        background-color: $cMain;
+        color: $cDetail;
+    }
+    }

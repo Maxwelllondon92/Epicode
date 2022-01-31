@@ -1,0 +1,28 @@
+CONVERTITORE DI VALUTA
+Conversione valore numerico da valuta a valuta, con due combo contenenti un elenco di valute (Euro, Dollaro, Sterlina, Yen, Yuan)
+
+STRUTTURA UI
+Home Page di presentazione del servizio, pagina descrittiva delle valute, pagina convertitore, pagina contatti.
+Header, navbar, footer stabili
+
+FUNZIONALE
+1. ELEMENTI FUNZIONALI
+Input numerico, combo valuta di partenza, combo valuta di destinazione, button per il calcolo, paragrafo per scrivere il valore dell'avvenuta conversione, segnaposto immagine valuta di partenza, segnaposto immagine valuta di destinazione
+
+2. INIT
+Entrambi i combo e il campo numerico devono mostrarsi vuoti
+
+3. GESTORE EVENTO
+(intercettazione delle selezioni combo per le immagini -> stampa immagini)
+Click sul button per il calcolo
+
+4. OPERAZIONI PRELIMINARI (Before Event)
+Memorizzare il valore numerico da convertire, memorizzare le valute di partenza e di destinazione
+( -> stampa immagini)
+
+5. EVENTO (Event)
+Impostare i possibili casi di conversione (20), eseguire la conversione, memorizzare il risultato
+
+6. CONSEGUENZE (After Event)
+Stampa a video del risultato della conversione
+Svuotamento dei campi e delle variabili

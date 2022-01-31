@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td {
+            font-size: 1.5em;
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid grey;
+        }
+
+        tr:nth-of-type(even) td:nth-of-type(odd),
+        tr:nth-of-type(odd) td:nth-of-type(even) {
+            background-color: #BFE4FF;
+            color: #000000;
+        }
+    </style>
+
+    </style>
+</head>
+
+<body>
+    <table id="demo">
+    </table>
+
+    <script>
+        const demo = document.getElementById("demo");
+        var counter = 1;
+        while (counter < 11) {
+            let oper = 1;
+            demo.innerHTML += "<tr id=" + counter + "></tr>"
+            while (oper < 11) {
+                let row = document.getElementById(counter);
+                row.innerHTML += "<td>" + oper * counter + "</td>";
+                oper++
+            }
+            counter++;
+        }
+
+    </script>
+</body>
+
+</html>

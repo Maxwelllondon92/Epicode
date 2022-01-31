@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+input,#add{
+    margin:0.5em 0
+}
+th,td{
+    min-width: 100px;
+    border: 1px solid black;
+}
+thead{
+    background-color: cornflowerblue;
+    color: white;
+}
+tbody{
+    text-align: center;
+}

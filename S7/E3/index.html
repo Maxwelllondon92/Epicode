@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversione Valute</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1 id="logo">Convertitore di Valute</h1>
+            <span id="sidebarBtn" class="bi bi-list"></span>
+        </div>
+        <div id="sidebar">
+            <ul>
+                <li><a onclick="goto('home')">Home</a></li>
+                <li><a onclick="goto('description')">Descrizione</a></li>
+                <li><a onclick="goto('conversion')">Conversione</a></li>
+                <li><a onclick="goto('contacts')">Contatti</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="page" id="home">
+            <h3>home</h3>
+            <div class="hero">
+                <h2> Semplice ed Efficace </h2>
+                <p>La single page app "Convertitore di valute" è stata sviluppata nel gennaio 2022 dagli studenti del
+                    corso
+                    <span id="epico">Epicode School</span>.
+                </p>
+                <a onclick="goto('conversion')">Converti</a>
+
+            </div>
+        </section>
+        <section class="page" id="description">
+            <h3>secription</h3>
+            <div id="accordion">
+                <div class=accordion-item>
+                    <div class="accordion-head">
+                        <i class="bi bi-chevron-right"></i>
+                        <h3>🇪🇺 Euro</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p>L'euro è amministrato dalla Banca centrale europea (BCE), con sede a Francoforte sul Meno, e
+                            dal
+                            Sistema europeo delle banche centrali; il primo organismo è responsabile unico delle
+                            politiche
+                            monetarie
+                            comuni, mentre coopera con il secondo per quanto riguarda il conio e la distribuzione di
+                            banconote e
+                            monete negli stati membri.</p>
+                    </div>
+                </div>
+
+                <div class=accordion-item>
+                    <div class="accordion-head">
+                        <i class="bi bi-chevron-right"></i>
+                        <h3>🇺🇸 Dollaro Statunitense</h3>
+                    </div>
+
+                    <div class="accordion-body">
+                        <p>Il dollaro statunitense (il simbolo: $, il codice ISO 4217: USD; in inglese: United States
+                            dollar) è la
+                            valuta ufficiale degli Stati Uniti d'America. È anche utilizzato come valuta di riserva al
+                            di
+                            fuori
+                            della nazione.
+
+                            Il dollaro è diviso in 100 centesimi. Originariamente era ulteriormente suddiviso in 1 000
+                            mill,
+                            utilizzati fino a quando la seconda guerra mondiale non rese l'alluminio troppo costoso per
+                            essere
+                            utilizzato come metallo da conio (e l'inflazione crescente li rese di valore
+                            insignificante). Le
+                            denominazioni inferiori a un dollaro sono emesse in moneta, mentre quelle uguali o superiori
+                            a
+                            un
+                            dollaro sono emesse in banconote (esistono sia la moneta sia la banconota da un dollaro,
+                            anche
+                            se la
+                            seconda è più comune). Le banconote moderne sono stampate dalla Federal Reserve fin dal
+                            1929. Le
+                            banconote con denominazione superiore ai 100 $ non sono più stampate dal 1946.</p>
+                    </div>
+                </div>
+
+
+                <div class=accordion-item>
+                    <div class="accordion-head">
+                        <i class="bi bi-chevron-right"></i>
+                        <h3>🇬🇧 Sterlina britannica</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p>La sterlina britannica, ufficialmente denominata lira sterlina (in inglese pound sterling),
+                            libbra
+                            sterlina o anche per sineddoche come sterlina inglese, è la valuta utilizzata nel Regno
+                            Unito.
+                            Il suo
+                            codice ISO 4217 è GBP. <br> Dal 1880 al 1914 il cambio è stato regolato dal sistema aureo
+                            (gold
+                            standard) e la sterlina è divenuta la principale moneta di scambio nel commercio
+                            internazionale.
+                            All'inizio della prima guerra mondiale (Currency and Bank Notes Act, 1914[1] del 6 agosto
+                            1914)
+                            il Tesoro britannico poté emettere biglietti di Stato (currency notes) convertibili in oro
+                            presso la Banca d'Inghilterra. Con la stessa legge si sospendeva l'obbligo di copertura
+                            dell'emissione di biglietti di banca. L'abbandono della riserva aurea consentì di espandere
+                            l'offerta di moneta per finanziare la spesa militare, aumentando il debito pubblico e
+                            l'inflazione. Il gold standard non venne quindi sospeso de iure, ma scoraggiato, tramite
+                            provvedimenti in via amministrativa, che rendevano difficile l'acquisto e la vendita d'oro,
+                            e
+                            tramite il rifiuto, per motivazioni patriottiche, di esportare oro da parte dei dealer
+                            londinesi.[2]
+
+                        </p>
+                    </div>
+                </div>
+                <div class=accordion-item>
+                    <div class="accordion-head">
+                        <i class="bi bi-chevron-right"></i>
+                        <h3>🇯🇵 Yen</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Lo yen (円 en?) è la valuta usata in Giappone. In giapponese si pronuncia «en», mentre la
+                            pronuncia «yen»
+                            è quella comunemente usata in italiano e altre lingue occidentali. I codici ISO 4217 per lo
+                            yen
+                            sono JPY
+                            e 392. Il simbolo latinizzato è ¥, mentre in giapponese si scrive con il kanji 円.
+                            Quest'ultima è
+                            la
+                            notazione più comunemente usata nel mercato interno giapponese per indicare i prezzi di beni
+                            e
+                            servizi.
+                            Nella lettura e conversione della valuta, va inoltre tenuto presente che in Giappone viene
+                            usata
+                            la
+                            virgola (,) come marcatore per le migliaia, mentre il punto (.) viene usato come separatore
+                            decimale.
+                        </p>
+                    </div>
+                </div>
+                <div class=accordion-item>
+                    <div class="accordion-head">
+                        <i class="bi bi-chevron-right"></i>
+                        <h3>🇨🇳 Renmimbi cinese</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Il renminbi (人民币S, rénmínbìP; o yuan, 元/圆S, yuánP)[1] è la valuta avente corso legale nella
+                            Repubblica
+                            Popolare Cinese. Il renminbi è emesso dalla Banca Popolare Cinese, l'autorità monetaria
+                            della
+                            Repubblica
+                            Popolare Cinese. L'abbreviazione ufficiale dello standard internazionale ISO 4217 è CNY.
+                            L'abbreviazione
+                            comunemente usata e non conforme allo standard è RMB. Il nome renminbi (人民币S) significa
+                            «valuta
+                            del
+                            popolo».</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page" id="conversion">
+            <h3>conversion</h3>
+            <div class="container">
+                <h2>Convertitore di Valute</h2>
+                <div class="form">
+                    <div class="form-field">
+                        <select class="form-select" id="valInput">
+                            <option value="eur">Euro - EUR 🇪🇺</option>
+                            <option value="usd">Dollari - USD 🇺🇸</option>
+                            <option value="gbp">Sterline - GBP 🇬🇧</option>
+                            <option value="jpy">Yen - JPY 🇯🇵</option>
+                            <option value="cny">Yuan - CNY 🇨🇳</option>
+                        </select>
+                        <input type="number" id="nInput">
+                    </div>
+                    <div>
+                        <i class="bi bi-arrow-down-up" id="change"></i>
+                    </div>
+                    <div class="form-field">
+                        <select class="form-select" id="valOutput">
+                            <option value="eur">Euro - EUR 🇪🇺</option>
+                            <option value="usd">Dollari - USD 🇺🇸</option>
+                            <option value="gbp">Sterline - GBP 🇬🇧</option>
+                            <option value="jpy">Yen - JPY 🇯🇵</option>
+                            <option value="cny">Yuan - CNY 🇨🇳</option>
+                        </select>
+                        <input type="number" disabled="disabled" id="nOutput">
+                    </div>
+                </div>
+                <div class="btns">
+                    <button id="btnConvert"><i class="bi bi-play-fill"></i>Convert</button>
+                    <button id="btnClear"><i class="bi bi-arrow-repeat"></i>Clear</button>
+                </div>
+            </div>
+        </section>
+        <section class="page" id="contacts">
+            <h3>contacts</h3>
+            <form id="form">
+                <fieldset>
+                    <legend>Informazioni Richieste</legend>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id=email><span></span><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Informazioni Personali</legend>
+                    <label>Tipo iscrizione </label><input type="radio" name="tipo" value="Persona" id="persona" checked>
+                    Persona <input type="radio" name="tipo" value="Azienda" id="azienda">Azienda<br>
+
+                    <label for="nomeAzienda">Nome Azienda</label>
+                    <input type="text" name="nomeAzienda" id="nomeAzienda"><span></span><br>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome"><span></span><br>
+                    <label for="cognome">Cognome</label>
+                    <input type="text" name="cognome" id="cognome"><span></span><br>
+                    <label for="tel">Telefono</label>
+                    <input type="tel" name="tel" id="tel" placeholder="Es. 123-1234567"><span></span><br>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Invia la tua Richiesta</legend>
+                    <button type="submit" id="submit">Invia</button>
+                    <button type="reset" id="reset">Resetta</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Attenzione: Le valute rappresentate in questo sito non sono aggiornate.</p>
+        <p>Se ne sconsiglia l'uso per prevedere casi reali
+            di cambio valuta.</p>
+        <p>&copy; Epicode School Students, 2022</p>
+        <a onclick="goto('contacts')">Contattaci</a>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/form.js"></script>
+</body>
+
+</html>

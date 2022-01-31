@@ -1,0 +1,49 @@
+$startcolor:hsl(140, 100, 50);
+
+// @mixin hue($color) {
+//     $i:1;
+//     @while $i<=100 {
+//         $val:$i*4;
+//         $newcolor:adjust-hue($color,$val);
+//         &>div:nth-child(#{$i}){
+//             background-color:$newcolor
+//         }
+//         $i:$i+1
+//     }
+// };
+
+
+// #num1{
+//     @include hue(#00aaff);
+//     display: flex;
+//     div{
+//     width: 1vw;;
+//     height: 50vh;
+//     display: inline-block
+// }
+// }
+// background: linear-gradient(0deg, rgba(192,192,192,0.3) 0%, rgba(192,192,192,1) 23%, rgba(192,192,192,1) 45%, rgba(192,192,192,1) 74%, rgba(192,192,192,0.3029586834733894) 100%);
+
+@function gradient($color) {
+    $i:0;
+    $grad:$color 0%;
+    @while $i<=50 {
+        $perc:$i*2+unquote("%");
+        $val:$i+2;
+        $color:adjust-hue($color,$val);
+        $newgrad:$color $perc;
+        $grad:$grad,$newgrad;
+        $i:$i+1
+    }
+    @return $grad
+};
+
+#num2{
+    display: flex;
+    div{
+        width: 100vw;;
+        height: 50vh;
+        display: inline-block;
+        background:linear-gradient(90deg,#{gradient($startcolor)});
+    }
+}

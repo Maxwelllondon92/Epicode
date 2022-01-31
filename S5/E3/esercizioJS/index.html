@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Interattiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Menu a comparsa -->
+    <div> 
+        <button id="menuButton">🦁</button>     
+        <div id="menuList" class="hide">
+            <div class="list-group">
+                <ul>
+                    <li><a href="" class="item">Oggetto 1</a></li>
+                    <li><a href="" class="item">Oggetto 2</a></li>
+                    <li><a href="" class="item">Oggetto 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!-- TextEdit -->
+    <div class="liste-impegni">
+        <h1 id="textEdit">Lorem Ipsum</h1>
+    
+        <div>
+            <button onclick="decrementaFont()">Font</button>
+            <button onclick="cambiaColore()">Cambia Colore</button>
+            <button onclick="maiuscoloFont()">Uppercase</button>
+            <button onclick="hide()">Mostra/Nascondi</button>
+        </div>
+    </div>
+
+    <div>
+        <h3>LISTA DEGLI IMPEGNI GIORNALIERI</h3>
+        <ul id="lista">
+            <li>Lavare la macchina</li>
+            <li>Andare dal dentista</li>
+            <li>Palestra</li>
+            <li>Spesa</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

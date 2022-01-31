@@ -1,0 +1,181 @@
+/*
+dimensioni immagini w:2000 h:1334 (h/3 = 444.66)
+*/
+
+/* Propiretà 3D */
+.bCube {
+  position: absolute;
+  top: calc(50vh - 225px);
+  left: calc(50vw - 300px);
+  width: 600px;
+  height: 450px;
+  perspective: 3000px;
+}
+
+.sCube {
+  transition: all 0.5s ease-in-out;
+}
+.cube-1 {
+  z-index: 20;
+}
+.cube-2 {
+  z-index: 30;
+}
+
+.showFront {
+  transform: rotateY(-0deg);
+}
+.showRight {
+  transform: rotateY(-90deg);
+}
+.showBack {
+  transform: rotateY(180deg);
+}
+.showLeft {
+  transform: rotateY(90deg);
+}
+
+.sCube {
+  width: 100%;
+  height: 33.33333%;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.face {
+  position: absolute;
+  width: 600px;
+  height: 150px;
+}
+
+.top,
+.bottom {
+  height: 42vw;
+}
+/*
+
+*/
+
+.front {
+  transform: rotateY(0deg) translateZ(300px);
+}
+.right {
+  transform: rotateY(90deg) translateZ(300px);
+}
+.back {
+  transform: rotateY(180deg) translateZ(300px);
+}
+.left {
+  transform: rotateY(-90deg) translateZ(300px);
+}
+/*
+.top    { transform: rotateX( 90deg) translateZ(21vw)}
+.bottom { transform: rotateX(-90deg) translateZ(21vw)}
+*/
+
+/* Importing Immagini */
+.face {
+  background-size: 100% 300%;
+}
+
+.face img {
+  width: 100%;
+}
+
+.cube-1 .front {
+  background-image: url("img/cubo1.jpg");
+  background-position: top;
+}
+.cube-1 .back {
+  background-image: url("img/cubo2.jpg");
+  background-position: top;
+}
+.cube-1 .right {
+  background-image: url("img/cubo3.jpg");
+  background-position: top;
+}
+.cube-1 .left {
+  background-image: url("img/cubo4.jpg");
+  background-position: top;
+}
+.cube-1 .top {
+  background-color: black;
+}
+.cube-1 .bottom {
+  background-color: black;
+}
+
+.cube-2 .front {
+  background-image: url("img/cubo1.jpg");
+  background-position: center;
+}
+.cube-2 .back {
+  background-image: url("img/cubo2.jpg");
+  background-position: center;
+}
+.cube-2 .right {
+  background-image: url("img/cubo3.jpg");
+  background-position: center;
+}
+.cube-2 .left {
+  background-image: url("img/cubo4.jpg");
+  background-position: center;
+}
+.cube-2 .top {
+  background-color: black;
+}
+.cube-2 .bottom {
+  background-color: black;
+}
+
+.cube-3 .front {
+  background-image: url("img/cubo1.jpg");
+  background-position: bottom;
+}
+.cube-3 .back {
+  background-image: url("img/cubo2.jpg");
+  background-position: bottom;
+}
+.cube-3 .right {
+  background-image: url("img/cubo3.jpg");
+  background-position: bottom;
+}
+.cube-3 .left {
+  background-image: url("img/cubo4.jpg");
+  background-position: bottom;
+}
+.cube-3 .top {
+  background-color: black;
+}
+.cube-3 .bottom {
+  background-color: black;
+}
+
+/* Controlli Media */
+#mediaControls {
+  position: fixed;
+  width: 100%;
+  bottom: 30px;
+  text-align: center;
+}
+#mediaControls span {
+  margin: 0 30px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: cornflowerblue;
+  color: cornsilk;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/*NOTE PROF:
+    transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+
+                transform: perspective(300px) rotate3d(0, 1, 0, -10deg);
+
+
+*/

@@ -1,0 +1,18 @@
+L'obiettivo di questo nuovo esercizio è quello di fare pratica con i metodi jQuery per gli effetti visivi.
+
+Creerai un file JavaScript esterno e lo collegherai alla pagina HTML del progetto (ad esempio index.html e script.js). 
+
+Utilizzerai jQuery ed i metodi che hai imparato durante le lezioni e metterai in pratica anche la tua conoscenza di JavaScript. 
+
+Per riuscire a completare con successo l’esercitazione dovrai inserire nel file HTML tre sezioni:
+
+Sezione 1: un pulsante chiamato "Cambia altezza e larghezza" e un div con la classe js-altezza-larghezza-container. 
+
+Sezione 2: in questa sezione creerai un accordion menu. Ci sarà una lista non numerata e conterrà cinque <li>.
+Sezione 3: in questa sezione creerai una progress bar e sarà presente anche un pulsante "Carica file".
+
+Quando un utente clicca sul pulsante chiamato "Cambia altezza e larghezza" l'altezza e la larghezza di un elemento avente classe  js-altezza-larghezza-container dovrebbe cambiare height:300px e width: 300px. Con l’utilizzo dei metodi .on("click",function(){}) e .animate().
+
+Nella sezione 2 è necessario allegare un gestore di eventi click su ogni elemento ul ed li. Fai uso dei metodi .each e .on("click",function(){}).
+
+Nella sezione 3 è necessario allegare un gestore di eventi di clic sul pulsante chiamato "Carica file". Quando un utente clicca su questo pulsante è necessario mostrare la barra di avanzamento dell'upload usando il metodo .animate() e .on("click",function(){}).

@@ -1,0 +1,40 @@
+body{
+    font-family: 'Indie Flower';
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size:1.5rem
+}
+div:not(:hover){
+    transform: scale(1.0);
+    transition-duration: 1s;
+    transition-timing-function:ease-out;
+}
+div:nth-child(1n){
+width: 250px;
+height: 200px;
+text-align: center;
+background-color: khaki;
+margin:20px;
+line-height: 100px;
+box-shadow: 5px 5px 10px 0px #000000;
+transform: rotate(-5deg);
+}
+div:nth-child(even){
+    background-color:plum;
+    transform: rotate(5deg);
+}
+div:nth-child(3n){
+    background-color:yellowgreen;
+    transform: rotate(-2deg);
+}
+div:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    transition-timing-function:ease-out;
+}

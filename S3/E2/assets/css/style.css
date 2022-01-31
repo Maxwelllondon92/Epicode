@@ -1,0 +1,80 @@
+/*>> Variables*/
+/*Boxes*/
+/*Colors*/
+/*Imgs*/
+/*Fonts*/
+/*Media Breakpoint*/
+/*>> Mixins*/
+/*Boxes*/
+/*Colors*/
+/*Fonts*/
+/*Screens*/
+/*>> Style*/
+body {
+  background-color: #f8f3ca;
+  font-family: "Special Elite", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.1; }
+
+header {
+  background-color: #f8f3ca;
+  position: sticky;
+  top: 0; }
+  header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1rem; }
+    @media screen and (max-width: 400px) {
+      header nav ul {
+        flex-wrap: wrap; } }
+    header nav ul li {
+      margin-right: 2rem;
+      list-style: none; }
+
+@media screen and (min-width: 400px) {
+  #main {
+    display: flex;
+    align-items: top;
+    justify-content: space-between; } }
+
+article {
+  padding: 1rem; }
+
+aside {
+  background-image: url("../imgs/stain.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 100%;
+  flex: 2 0 25%;
+  padding: 1rem; }
+  aside ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    aside ul li {
+      list-style: none;
+      margin-bottom: 1.5rem; }
+
+h1 {
+  font-family: "Black Ops One", serif;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.8; }
+
+h2 {
+  font-family: "Black Ops One", serif;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.4; }
+
+p {
+  font-family: "Special Elite", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.1; }
+
+button {
+  margin-bottom: 1.5rem; }

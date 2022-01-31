@@ -1,0 +1,34 @@
+{
+    "audio": [
+        {
+            "title": "Heart Beat",
+            "file": "heartbeat.mp3"
+        },
+        {
+            "title": "Honky Tonky Piano",
+            "file": "honky_tonky_piano.mp3"
+        },
+        {
+            "title": "Mastermind",
+            "file": "mastermind.mp3"
+        }
+    ],
+    "video": [
+        {
+            "title": "By Night",
+            "file": "by_night.mp4"
+        },
+        {
+            "title": "Flight",
+            "file": "Flight.mp4"
+        },
+        {
+            "title": "Flowers",
+            "file": "Flowers.mp4"
+        },
+        {
+            "title": "Sea",
+            "file": "Sea.mp4"
+        }
+    ]
+}

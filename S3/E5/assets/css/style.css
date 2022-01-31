@@ -1,0 +1,7 @@
+#num2 {
+  display: flex; }
+  #num2 div {
+    width: 100vw;
+    height: 50vh;
+    display: inline-block;
+    background: linear-gradient(90deg, #00ff55 0%, #00ff5e 0%, #00ff6a 2%, #00ff7b 4%, #00ff91 6%, #00ffaa 8%, #00ffc8 10%, #00ffea 12%, #00eeff 14%, #00c4ff 16%, #0095ff 18%, #0062ff 20%, #002bff 22%, #1100ff 24%, #5100ff 26%, #9500ff 28%, #dd00ff 30%, #ff00d5 32%, #ff0084 34%, #ff002f 36%, #ff2b00 38%, #ff8800 40%, #ffea00 42%, #aeff00 44%, #44ff00 46%, #00ff2b 48%, #00ff9d 50%, #00eaff 52%, #006fff 54%, #1100ff 56%, #9500ff 58%, #ff00e1 60%, #ff0055 62%, #ff3c00 64%, #ffd000 66%, #95ff00 68%, #00ff09 70%, #00ffaa 72%, #00aeff 74%, #0004ff 76%, #aa00ff 78%, #ff00a2 80%, #ff1500 82%, #ffd000 84%, #6fff00 86%, #00ff55 88%, #00e1ff 90%, #0015ff 92%, #bb00ff 94%, #ff006f 96%, #ff6a00 98%, #b7ff00 100%); }

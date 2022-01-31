@@ -1,0 +1,34 @@
+/*>>Variables*/
+/*Breakpoints*/
+$m:(
+    "xs":screen and (max-width:576px),
+    "sm":screen and (min-width:576px),
+    "md":screen and (min-width:768px),
+    "lg":screen and (min-width:992px),
+);
+/*Boxes*/
+$bgap:(
+    "n":1rem,
+    "m":2rem,
+    "w":3rem
+);
+/*Colors*/
+$c:(
+    "dark":#223,
+    "light":#ddd,
+    "main":#33e,
+    "second":#3a3,
+);
+$cvlg:(
+    "dark":linear-gradient(map-get($c,dark), lighten(map-get($c,dark),20%)),
+    "light":linear-gradient(map-get($c,light), lighten(map-get($c,light),20%)),
+    "main":linear-gradient(map-get($c,main), lighten(map-get($c,main),20%)),
+    "second":linear-gradient(map-get($c,second), lighten(map-get($c,second),20%)),
+);
+/*Fonts*/
+$fsz:(
+    "s":0.7rem,
+    "m":1rem,
+    "b":1.5rem,
+    "h":2rem,
+);

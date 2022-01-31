@@ -1,0 +1,187 @@
+/* IMPOSTAZIONI GENERALI */
+body{
+    /*container*/
+    padding:15px;
+    /*colori*/
+    background-image: url(../img/sfondo.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 75%;
+    /*testi*/
+    font-family: Poppins, sans-serif;
+}
+hr{display: none;}
+p,ol,ul,table{
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+p,a,ol,ul{
+    line-height: 1.5em;
+}
+strong{
+    color:rebeccapurple;
+    font-weight: bolder;
+}
+code{
+    background-color: #ddd;
+    border: #888 solid 1px;
+    border-radius: 3px;
+}
+
+/* HEADER */
+header{
+    /*container*/
+    padding:30px 0;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    /*colori*/
+    background: rgb(9,96,121);
+    background: linear-gradient(0deg, rgba(9,96,121,1) 0%, rgba(28,149,181,1) 100%);
+    box-shadow: 0px 5px 5px -5px #000000;
+    /*testi*/
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+header img{
+    margin-bottom:20px;
+}
+header li{
+    list-style: none;
+}
+header a::before{
+    content: "* ";
+}
+header a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header a:hover{
+    color:red;
+}
+/* MAIN */
+main{
+    /*container*/
+    padding:20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    /*colori*/
+    background-color: white;
+    box-shadow: 0px 5px 5px -5px #000000
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+main ol, main ul{
+    padding-left: 30px;
+}
+h1{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+main article h2{
+    font-weight: bolder;
+}
+main article > p:first-of-type{
+    color:#aaa;
+    font-size: 0.9em;
+}
+main iframe{
+    width:100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+main section{
+    background-color: #ddd;
+    padding:20px;
+    margin-bottom: 20px;
+}
+/* TABELLE */
+table{
+    text-align: center;
+    border-bottom: cornflowerblue solid 2px;
+}
+table caption{
+    font-weight: bold;
+    font-style: italic;
+}
+th,td{
+    padding:15px 10px;    
+}
+thead tr{
+    background-color: cornflowerblue;
+    color:white;
+}
+tbody tr:nth-child(even) td{
+    background-color: #eee;
+    border-top: #ccc solid 1px;
+    border-bottom: #ccc solid 1px;
+
+}
+/* FORM */
+form input{
+    padding:5px;
+    border:none;
+    border-bottom: black dashed 1px;
+}
+form button{
+    padding:5px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+}
+/* ELEMENTI NELL' ASIDE */
+main section h2, main aside h2{
+    margin-bottom:20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+main a,aside a{
+    color:teal;
+    font-weight: bold;
+}
+aside p{
+    margin-bottom: 0;
+}
+aside div{
+    background-color: #ddd;
+    border: #888 solid 1px;
+    border-radius: 3px;
+    padding:10px 20px;
+}
+aside div:not(:last-child){
+    margin-bottom: 20px;
+}
+aside div p{
+    font-size: 0.8em;
+}
+aside div p:last-child{
+    margin-top: 10px;
+    text-align: right;
+}
+/* FOOTER */
+footer {
+    /*container*/
+    padding:20px;
+    box-sizing: border-box;
+    /*colori*/
+    background: rgb(5,35,43);
+    background: linear-gradient(0deg, rgba(5,35,43,1) 20%, rgba(23,118,143,1) 100%);
+    /*testi*/
+    font-size: 0.8em;
+    text-align: center;
+    color:white;
+    box-shadow: 0px 5px 5px -5px #000000
+}
+footer a{
+    color:fuchsia;
+}

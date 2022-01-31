@@ -1,0 +1,39 @@
+@import '_vars';
+/*STILI*/
+h1{
+    font-size: $fTitle;
+    color: $cDetail;
+    font-weight: $fBold;
+}
+p{
+    color: $cHigh;
+}
+nav,.showcase-content{
+padding: $bMainPad;
+display: flex;
+align-items: center;
+    justify-content: space-between;
+}
+header{
+    background: linear-gradient($cMain,$cSecond);
+    font-family:$fType;
+}
+nav{
+    background-color: $cHigh;
+    box-shadow: 0px 8px 13px -2px $cHigh;
+    h1{
+        display: inline-block;
+        padding: $bLogoPad;
+        background-color: $cMain;
+    }
+    li{
+    display: inline;
+    }
+}
+.showcase-content{
+    h1,p{
+        margin-bottom: $bTextMar;
+        line-height: $fMainLine
+    }
+}
+@import '_button';

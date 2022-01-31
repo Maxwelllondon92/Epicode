@@ -1,0 +1,31 @@
+/*>>Mixins*/
+@mixin flex-c-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@mixin nav {
+    @include flex-c-sb;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background: map-get($cvlg,dark);
+    color: map-get($c,light);
+    padding: map-get($bgap,m);
+    h1{
+        font-size: map-get($fsz,h);
+    }
+    ul{
+        li{
+            list-style: none;
+            margin: map-get($bgap,m) map-get($bgap,n);
+            a:link,a:visited{
+                color: map-get($c,light);
+                text-decoration: none;
+            }
+        }
+    }
+}
+

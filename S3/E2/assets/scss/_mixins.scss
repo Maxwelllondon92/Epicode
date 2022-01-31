@@ -1,0 +1,51 @@
+/*>> Mixins*/
+/*Boxes*/
+@mixin flex($ver, $hor) {
+    display: flex;
+    align-items: $ver;
+    justify-content: $hor;
+}
+@mixin sticky {
+    position: sticky;
+    top: 0;
+}
+/*Colors*/
+@mixin bg($type, $src) {
+    background-#{$type}: $src;
+}
+@mixin stain {
+    @include bg(image, $iStain);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100%;
+}
+/*Fonts*/
+@mixin fTitle {
+    font-family: $fTitle;
+    font-size: map-get($fSize, large);
+    margin-bottom: $bRule;
+    line-height: 1.8;
+}
+@mixin fSubtitle {
+    font-family: $fTitle;
+    font-size: map-get($fSize, medium);
+    margin-bottom: $bRule;
+    line-height: 1.4;
+}
+@mixin fPara {
+    font-family: $fPara;
+    font-size: map-get($fSize, small);
+    margin-bottom: $bRule;
+    line-height: 1.1;
+}
+/*Screens*/
+@mixin sMobile {
+    @media screen and (max-width:#{$mSmall}) {
+        @content;
+    }
+}
+@mixin sTablet {
+    @media screen and (min-width:#{$mSmall}) {
+        @content;
+    }
+}

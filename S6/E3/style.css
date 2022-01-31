@@ -1,0 +1,12 @@
+h1 {
+    background: var(--colore-bg);
+    background-clip: test;
+}
+
+h2{
+    padding-left: 20px;
+    background: url(images/add.png) no-repeat left center;
+}
+h2.meno{
+    background: url(images/minus.png) no-repeat left center;
+}
