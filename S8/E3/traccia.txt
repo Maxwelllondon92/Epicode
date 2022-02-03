@@ -1,0 +1,45 @@
+Scrivere un programma utilizzando la programmazione ad oggetti che calcoli le tasse
+che dovranno sostenere i singoli lavoratori autonomi al fine di verificare il
+reddito annuo netto di ognuno a secondo del proprio reddito annuo lordo, tasse, cod redditività.
+Il programma utilizza classi astratte e non astratte.
+
+Dati:
+
+proprietà:
+
+codredd: number;
+tasseinps:number
+tasseirpef:number
+redditoannuolordo:number
+
+I primi 3 sono di fatto tre numeri da usare per calcolare in percentuale i diversi valori.
+ES.
+utile tasse = quanto resta di utile dopo il calcolo delle tasse con codredd
+tasse inps = quanto si paga dall'utile tasse di tasse inps
+tasse irpef = quanto si paga dall'utile tasse di tasse irpef
+
+metodi:
+
+getUtileTasse:number (da tassare)
+getTasseInps:number
+getTasseIrpef:number
+getRedditoAnnuoNetto:number
+
+Categorie:
+Libero professionista (codredd 78, tasseirpef 5, tasseinps 25,72)
+Artigiano (codredd 67, tasseirpef 15, tasseinps 35)
+Commerciante (codredd 40, tasseirpef 15, tasseinps 35)
+
+///////////////////////////////////////////////////////
+
+utileTasse = redditoannuolordo*(codredd/100)
+pagatoInps = utileTasse*(tasseInps/100)
+pagatoIrpef = utileTasse*(tasseIrpef/100)
+RedditoAnnuoNetto = utileTasse-pagatoInps-pagatoIrpef
+
+15000*0.78 = 11700
+11700*0.2572 =3009.24
+11700*0.05 =585
+11700-3009.24-585 =8105.76
+
+///////////////////////////////////////////////////////
