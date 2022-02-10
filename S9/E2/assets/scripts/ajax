@@ -1,0 +1,98 @@
+function generateCatalogue(): void {
+        $.ajax({
+            url: `../assets/jsons/libri.json`,        //Perchè il percorso è questo?
+            dataType: 'json',
+            success: function (json) {
+                let bookGenreList: string[] = [];
+                for (let items in json) {
+                    $('#ch-catalogue-container').append(`
+                    <div class="card col-md-4 ch-book-item">
+                    <img src="${json[items].immagine}" class="card-img-top img-fluid" alt="${json[items].nome}">
+                    <div class="card-body">
+                      <h3 class="card-title fs-5">${json[items].nome}</h3>
+                      <p class="card-text mb-2">di ${json[items].autore}</p>
+                      <a href="javascript:void(0)" id="ch-item-details" class="card-text mb-2">Dettagli</a>
+                    </div>
+                    <div class="card-footer">
+                    <a href="javascript:void(0)" class="btn btn-primary ch-addToCart">Aggiungi al carrello</a>
+                    </div>
+                  </div>
+                  `);
+                    for (let i = 0; i < json[items].generi.length; i++) {
+                        bookGenreList.push(json[items].generi[i]);
+                    }
+                }
+                // ELIMINA i DUPLICATI
+                //let uniqueChars = [...new Set(chars)];
+                //bookGenreList = bookGenreList.filter(value,index) => bookGenreList.indexOf(value) === index;
+                console.log(bookGenreList);
+            }
+        });
+
+        $.ajax({
+            url: `../assets/jsons/film.json`,
+            dataType: 'json',
+            success: function (json) {
+                for (let items in json) {
+                    $('#ch-catalogue-container').append(`
+                  <div class="card col-md-4 ch-film-item">
+                  <img src="${json[items].immagine}" class="card-img-top img-fluid" alt="${json[items].nome}">
+                  <div class="card-body">
+                    <h3 class="card-title fs-5">${json[items].nome}</h3>
+                    <p class="card-text mb-2">di ${json[items].regista}</p>
+                    <a href="javascript:void(0)" id="ch-item-details" class="card-text mb-2">Dettagli</a>
+                  </div>
+                  <div class="card-footer">
+                  <a href="javascript:void(0)" class="btn btn-primary ch-addToCart">Aggiungi al carrello</a>
+                  </div>
+                </div>
+                  `);
+                }
+            }
+        });
+        $.ajax({
+            url: `../assets/jsons/musica.json`,
+            dataType: 'json',
+            success: function (json) {
+                for (let items in json) {
+                    $('#ch-catalogue-container').append(`
+                  <div class="card col-md-4 ch-music-item">
+                  <img src="${json[items].immagine}" class="card-img-top img-fluid" alt="${json[items].nome}">
+                  <div class="card-body">
+                    <h3 class="card-title fs-5">${json[items].nome}</h3>
+                    <p class="card-text mb-2">di ${json[items].artista}</p>
+                    <a href="javascript:void(0)" id="ch-item-details" class="card-text mb-2">Dettagli</a>
+                  </div>
+                  <div class="card-footer">
+                  <a href="javascript:void(0)" class="btn btn-primary ch-addToCart">Aggiungi al carrello</a>
+                  </div>
+                </div>
+                  `);
+                }
+            }
+        });
+        $.ajax({
+            url: `../assets/jsons/musica.json`,
+            dataType: 'json',
+            success: function (json) {
+                let arr:any[];
+                for (let items in json) {
+                    arr.push(JSON.parse(json[items]))
+
+                //     $('#ch-catalogue-container').append(`
+                //   <div class="card col-md-4 ch-music-item">
+                //   <img src="${json[items].immagine}" class="card-img-top img-fluid" alt="${json[items].nome}">
+                //   <div class="card-body">
+                //     <h3 class="card-title fs-5">${json[items].nome}</h3>
+                //     <p class="card-text mb-2">di ${json[items].artista}</p>
+                //     <a href="javascript:void(0)" id="ch-item-details" class="card-text mb-2">Dettagli</a>
+                //   </div>
+                //   <div class="card-footer">
+                //   <a href="javascript:void(0)" class="btn btn-primary ch-addToCart">Aggiungi al carrello</a>
+                //   </div>
+                // </div>
+                // `);
+                }
+            }
+        });
+    }

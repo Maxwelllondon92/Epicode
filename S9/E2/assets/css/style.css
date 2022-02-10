@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+.fullscreen{
+    width: 100vw;
+    height: 100vh;
+}
+.bg-light {
+    background-color: #aeb5da59!important;
+    font-weight: bold;
+}
+
+.ch-logo {
+    background-color: aliceblue; /* defines the background color of the image */
+    /* background: url('../imgs/colors.png') no-repeat center / contain;; */
+    mask: url(../imgs/logo.svg) no-repeat center / contain;
+    -webkit-mask: url(../imgs/logo.svg) no-repeat center / contain;
+    min-width: 100px;
+    min-height: 75px;
+}
+
+nav,footer{
+   
+background: rgb(22,34,122);
+background: radial-gradient(circle, rgba(22,34,122,1) 0%, rgba(8,22,39,1) 97%);
+
+}
+
+/* Aside */
+#ch-filterBtn{
+    display: inline-block;
+    text-decoration: none;
+    margin: 1rem;
+}
+.ch-genres li{
+    list-style: none;
+}
+
+#ch-filters{
+    background-color: #eee;
+}
+
+/*Catalogue*/
+#ch-catalogueTitle{
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+.card {
+    position: relative;
+    padding: 0.5em
+}
+.card-header{
+    position: absolute;
+    display: none;
+    width: 95%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.card-header a{
+    position: absolute;
+    right:1.5rem
+}
+.card-header p{
+    margin-bottom: 1rem;
+}
+.card-header p:first-of-type{
+    margin-top: 1rem;
+}
+.card img {
+    height: 300px;
+    width: auto;
+    margin: 0.5em auto;
+}
+.card-body{
+    z-index:3;
+}
+.card-footer {
+    border: none;
+    background-color: white;
+    z-index:3;
+}
+
+/* Footer */
+footer {
+    font-family: 'Open Sans Condensed';
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+/* LOGIN */
+#logMsg,#subMsg{
+    text-align: center;
+    margin: auto;
+    max-width: 200px
+}
+
+/* CARRELLO */
+#ch-cartList img{
+    display: inline-block;
+    height: 150px;
+    /* float: inline-start; */
+}
+#ch-cartList div{
+    position: relative;
+    min-width: 300px;
+    background-color: gainsboro;
+}
+#ch-cartList div button{
+    position: absolute;
+    bottom:1rem;
+    right:1rem;
+}

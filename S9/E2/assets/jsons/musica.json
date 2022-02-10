@@ -1,0 +1,112 @@
+[
+    {
+        "nome": "Standards, Vol.2",
+        "prezzo":17.49,
+        "generi":["jazz"],
+        "immagine":"https://upload.wikimedia.org/wikipedia/en/7/7d/Standards_Vol._2.jpg",
+        "EAN":"0042282501523",
+        "anno":1985,
+        "etichetta":"ECM Records",
+        "artisti":["Keith Jarrett", "Gary Peacock", "Jack DeJohnette"],
+        "supporto":"CD audio"
+    },
+    {
+        "nome": "The Vigil",
+        "prezzo":26.80,
+        "generi":["jazz", "fusion"],
+        "immagine":"https://upload.wikimedia.org/wikipedia/en/9/9a/Chick_Corea_The_Vigil.jpg",
+        "EAN":"0888072345782",
+        "anno":2013,
+        "etichetta":"Concord",
+        "artisti":["Chick Corea"],
+        "supporto":"CD audio"
+    },
+    {
+        "nome": "Explorations",
+        "prezzo":7.14,
+        "generi":["jazz"],
+        "immagine":"https://upload.wikimedia.org/wikipedia/en/6/62/Bill_Evans_Trio_Explorations.jpg",
+        "EAN":"0888072328426",
+        "anno":1961,
+        "etichetta":"Concord",
+        "artisti":["Bill Evans"],
+        "supporto":"CD audio"
+    },
+    {
+        "nome": "Fidate Correnti",
+        "prezzo": 26.00,
+        "generi":["jazz", "pop"],
+        "immagine":"https://m.media-amazon.com/images/I/41be7j2lezL._AC_.jpg",
+        "EAN":"0828768037225",
+        "anno":"2005",
+        "etichetta":"Epic",
+        "artisti":["Ivan Segreto"],
+        "supporto":"Dual disk"
+    },
+    {
+        "nome": "Pink Moon",
+        "prezzo": 10.50,
+        "generi":["folk"],
+        "immagine":"https://upload.wikimedia.org/wikipedia/en/3/3c/NickDrakePinkMoon.jpg",
+        "EAN":"0602537069958",
+        "anno":1972,
+        "etichetta":"Island",
+        "artisti":["Nick Drake"],
+        "supporto":"CD audio"
+    },
+    {
+        "nome": "Traced in Air",
+        "prezzo":10.90,
+        "generi":["metal"],
+        "immagine":"https://upload.wikimedia.org/wikipedia/en/0/02/Cynic_-_Traced_in_Air.jpg",
+        "EAN":"0822603618228",
+        "anno":2008,
+        "etichetta":"Season of Mist",
+        "artisti":["Cynic"],
+        "supporto":"CD audio"
+    },
+    {
+        "nome": "Catch 33",
+        "prezzo": 9.99,
+        "generi":["metal"],
+        "immagine":"https://upload.wikimedia.org/wikipedia/en/4/40/Meshuggah_-_Catch_Thirtythree_-_cover.jpg",
+        "EAN":"0727361131128",
+        "anno":2005,
+        "etichetta":"Nuclear Blast",
+        "artisti":["Meshuggah"],
+        "supporto":"CD audio"
+    },
+    {
+        "nome": "The Parallax II: Future Sequence",
+        "prezzo":20.90,
+        "generi":["metal"],
+        "immagine":"https://upload.wikimedia.org/wikipedia/en/b/b0/The_Parallax_II_Future_Sequence_-_Between_the_Buried_and_Me.jpg",
+        "EAN":"0039841514827",
+        "anno":2012,
+        "etichetta": "Metal Blade",
+        "artisti":["Between the Buried and Me"],
+        "supporto":"CD audio"
+    },
+    {
+        "nome": "Parachutes",
+        "prezzo":37.10,
+        "generi":["pop","rock"],
+        "immagine":"https://upload.wikimedia.org/wikipedia/en/f/fd/Coldplay_-_Parachutes.png",
+        "EAN":"0724352778317",
+        "anno":2000,
+        "etichetta":"Parlophone",
+        "artisti":["Coldplay"],
+        "supporto":"Vinile LP"
+    },
+    {
+        "nome": "Songs in the Key of Life",
+        "prezzo":31.10,
+        "generi":["pop","r&b"],
+        "immagine":"https://upload.wikimedia.org/wikipedia/en/e/e2/Songs_in_the_key_of_life.jpg",
+        "EAN":"2580000734161",
+        "anno":1976,
+        "etichetta":"Motown",
+        "artisti":["Stevie Wonder"],
+        "supporto":"Vinile LP"
+    }
+]

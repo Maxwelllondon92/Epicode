@@ -1,0 +1,103 @@
+[
+    {
+        "nome": "HyperVersum",
+        "prezzo":7.9,
+        "generi":["fantasy","storico","avventura"],
+        "immagine":"https://www.ibs.it/images/9788809818774_0_536_0_75.jpg",
+        "EAN":"9788809061729",
+        "anno":2006,
+        "autore":"Cecilia Randall",
+        "editore":"Giunti"
+    },
+    {
+        "nome": "Neuromancer",
+        "prezzo":8,
+        "generi":["azione","fantascienza"],
+        "immagine":"https://www.ibs.it/images/9781473217386_0_536_0_75.jpg",
+        "EAN":"9780006480419",
+        "anno":1984,
+        "autore":"William Gibson",
+        "editore":"Voyager"
+    },
+    {
+        "nome": "Abissi d'Acciaio",
+        "prezzo":9,
+        "generi":["fantascienza","thriller"],
+        "immagine":"https://www.ibs.it/images/9788804403043_0_536_0_75.jpg",
+        "EAN":"9788804403043",
+        "anno":1953,
+        "autore":"Isaac Asimov",
+        "editore":"Mondadori"
+    },
+    {
+        "nome": "Duecentosei Ossa",
+        "prezzo":5.9,
+        "generi":["thriller","horror"],
+        "immagine":"https://www.ibs.it/images/9788858601600_0_536_0_75.jpg",
+        "EAN":"9788846210609",
+        "anno":2001,
+        "autore":"Kathy Reichs",
+        "editore":"SuperPocket"
+    },
+    {
+        "nome": "La torre nera - Vol.1 - L'Ultimo Cavaliere",
+        "prezzo":8.5,
+        "generi":["avventura","distopico","horror"],
+        "immagine":"https://www.ibs.it/images/9788868363666_0_536_0_75.jpg",
+        "EAN":"9788882745929",
+        "anno":1982,
+        "autore":"Stephen King",
+        "editore":"Sperling"
+    },
+    {
+        "nome": "Divergent",
+        "prezzo":14.90,
+        "generi":["distopico","avventura","azione"],
+        "immagine":"https://www.ibs.it/images/9788851137762_0_536_0_75.jpg",
+        "EAN":"9788851121105",
+        "anno":2011,
+        "autore":"Veronica Roth",
+        "editore":"De Agostini"
+    },
+    {
+        "nome": "HotPaprika",
+        "prezzo":11.90,
+        "generi":["fumetto","divertente","erotico"],
+        "immagine":"https://www.ibs.it/images/9788822623584_0_536_0_75.jpg",
+        "EAN":"9788822623584",
+        "anno":2021,
+        "autore":"Mirka Andolfo",
+        "editore":"Astra"
+    },
+    {
+        "nome": "Il signore dei Ratti",
+        "prezzo":9.99,
+        "generi":["fumetto","divertente","parodia"],
+        "immagine":"https://www.ibs.it/images/9788891274830_0_536_0_75.jpg",
+        "EAN":"9788891274830",
+        "anno":2004,
+        "autore":"Leo Ortolani",
+        "editore":"Panini"
+    },
+    {
+        "nome": "Immune",
+        "prezzo":25.65,
+        "generi":["saggistica","fumetto"],
+        "immagine":"https://www.ibs.it/images/9788817161558_0_536_0_75.jpg",
+        "EAN":"9788817161558",
+        "anno":2022,
+        "autore":"Philipp Dettmer",
+        "editore":"Rizzoli"
+    },
+    {
+        "nome": "Design patterns",
+        "prezzo":25.56,
+        "generi":["saggistica"],
+        "immagine":"https://www.ibs.it/images/9788868958848_0_536_0_75.jpg",
+        "EAN":"9788868958848",
+        "anno":2020,
+        "autore":"Antonio Pelleriti",
+        "editore":"Edizioni LSWR"
+    }
+
+]

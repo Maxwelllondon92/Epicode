@@ -1,0 +1,111 @@
+[
+    {
+        "nome": "Pulp Fiction",
+        "prezzo":9.99,
+        "generi":["thriller","drammatico"],
+        "immagine":"https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg",
+        "EAN":"4020628667788",
+        "anno":1994,
+        "regista":"Quentin Tarantino",
+        "attori":["John Travolta", "Samuel L. Jackson","Uma Thurman", "Bruce Willis"],
+        "supporto":"DVD"
+    },
+    {
+        "nome": "Luca",
+        "prezzo":9.27,
+        "generi":["animazione", "avventura"],
+        "immagine":"https://www.ibs.it/images/8717418595265_0_464_0_75.jpg",
+        "EAN":"8717418595265",
+        "anno":2021,
+        "regista":"Enrico Casarosa",
+        "attori":["Alberto Vannini", "Luca Tesei", "Sara Ciocca"],
+        "supporto":"DVD"
+    },
+    {
+        "nome": "Dune",
+        "prezzo":14.99,
+        "generi":["azione","fantascienza"],
+        "immagine":"https://www.ibs.it/images/5051891184718_0_536_0_75.jpg",
+        "EAN":"5051891184718",
+        "anno":2021,
+        "regista":"Denis Villenueve",
+        "attori":["Timothe Chalamet", "Rebecca Ferguson"," Dave Bautista", "Stellan Skarsgård", "Charlotte Rampling", "Oscar Isaac", "Jason Momoa", "Zendaya"],
+        "supporto":"DVD"
+    },
+    {
+        "nome": "Bohemian Rhapsody",
+        "prezzo":16.90,
+        "generi":["musical", "drammatico"],
+        "immagine":"https://www.ibs.it/images/5051891167711_0_536_0_75.jpg",
+        "EAN":"5051891167711",
+        "anno":2018,
+        "regista":"Bryan Singer",
+        "attori":["Rami Malek", "Ben Hardy", "Joseph Mazzello"," Gwilym Lee", "Allen Leech"],
+        "supporto":"Blu-ray + Blu-ray Ultra HD 4K"
+    },
+    {
+        "nome": "Pirati dei Caraibi. La vendetta di Salazar",
+        "prezzo":14.99,
+        "generi":["azione", "commedia"],
+        "immagine":"https://www.ibs.it/images/8717418507206_0_536_0_75.jpg",
+        "EAN":"8717418507206",
+        "anno":2017,
+        "regista":"Joachim Roenning, Espen Sandberg",
+        "attori":["Johnny Depp", "Javier Bardem", "Brenton Thwaites", "Kaya Scodelario"," Kevin McNally"],
+        "supporto":"DVD"
+    },
+    {
+        "nome": "300. L'alba di un impero",
+        "prezzo":9.99,
+        "generi":["guerra","azione"],
+        "immagine":"https://www.ibs.it/images/5051891109452_0_536_0_75.jpg",
+        "EAN":"5051891109452",
+        "anno":2014,
+        "regista":"Noam Murro",
+        "attori":["Sullivan Stapleton", "Eva Green", "Lena Headey", "David Wenham", "Hans Matheson", "Rodrigo Santoro", "Callan Mulvey"],
+        "supporto":"DVD"
+    },
+    {
+        "nome": "Harry Potter Collezione completa",
+        "prezzo":20.99,
+        "generi":["azione","fantasy","avventura"],
+        "immagine":"https://www.ibs.it/images/5051891160750_0_536_0_75.jpg",
+        "EAN":"5051891160750",
+        "anno":2002,
+        "regista":"Chris Columbus, Alfonso Cuaron, Mike Newell, David Yates",
+        "attori":["Daniel Radcliffe", "Rupert Grint", "Emma Watson", "Jason Boyd", "Richard Macklin,"],
+        "supporto":"Blu-ray"
+    }, {
+        "nome": "Il Signore degli anelli. Trilogia",
+        "prezzo":12.99,
+        "generi":["fantasy","azione"],
+        "immagine":"https://www.ibs.it/images/5051891102361_0_536_0_75.jpg",
+        "EAN":"5051891102361",
+        "anno":2001,
+        "regista":"Peter Jackson",
+        "attori":["Sean Astin", "Sean Bean", "Cate Blanchett", "Orlando Bloom", "Bill Boyd "],
+        "supporto":"DVD"
+    },
+    {
+        "nome": "Qui rido io ",
+        "prezzo":14.99,
+        "generi":["drammatico", "biografico"],
+        "immagine":"https://www.ibs.it/images/8032807082141_0_536_0_75.jpg",
+        "EAN":"8032807082141",
+        "anno":2022,
+        "regista":"Mario Martone",
+        "attori":["Toni Servillo", "Gianfelice Imparato", "Maria Nazionale", "Cristiana Dell'Anna", "Iaia Forte"],
+        "supporto":"DVD"
+    },
+    {
+        "nome": "Quella casa nel bosco. Special Edition. Con card tarocco da collezione",
+        "prezzo":9.99,
+        "generi":["horror", "drammatico"],
+        "immagine":"https://www.ibs.it/images/8031179949762_0_536_0_75.jpg",
+        "EAN":"8031179949762",
+        "anno":2012,
+        "regista":"Drew Goddard",
+        "attori":["Kristen Connolly", "Chris Hemsworth", "Anna Hutchison", "Fran Kranz", "Jesse Williams", "Richard Jenkins"],
+        "supporto":"DVD"
+    }
+]
