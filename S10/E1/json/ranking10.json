@@ -1,0 +1,72 @@
+[
+  {
+    "people_id": "16685",
+    "name": "A. Murray",
+    "country": "GBR",
+    "points": "11540",
+    "position": "1"
+  },
+  {
+    "people_id": "6194",
+    "name": "N. Djokovic",
+    "country": "SER",
+    "points": "9825",
+    "position": "2"
+  },
+  {
+    "people_id": "25912",
+    "name": "S. Wawrinka",
+    "country": "CHE",
+    "points": "5695",
+    "position": "3"
+  },
+  {
+    "people_id": "19853",
+    "name": "M. Raonic",
+    "country": "CAN",
+    "points": "4930",
+    "position": "4"
+  },
+  {
+    "people_id": "17205",
+    "name": "K. Nishikori",
+    "country": "JPN",
+    "points": "4830",
+    "position": "5"
+  },
+  {
+    "people_id": "16754",
+    "name": "R. Nadal",
+    "country": "ESP",
+    "points": "4385",
+    "position": "6"
+  },
+  {
+    "people_id": "4635",
+    "name": "M. Čilić",
+    "country": "HRV",
+    "points": "3560",
+    "position": "7"
+  },
+  {
+    "people_id": "28295",
+    "name": "D. Thiem",
+    "country": "AUT",
+    "points": "3505",
+    "position": "8"
+  },
+  {
+    "people_id": "16145",
+    "name": "G. Monfils",
+    "country": "FRA",
+    "points": "3445",
+    "position": "9"
+  },
+  {
+    "people_id": "7265",
+    "name": "R. Federer",
+    "country": "CHE",
+    "points": "3260",
+    "position": "10"
+  }
+]

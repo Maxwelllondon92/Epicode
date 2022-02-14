@@ -1,0 +1,2228 @@
+[
+  {
+    "competition_id": "1",
+    "name": "Brisbane International",
+    "area_name": "Australia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "2",
+    "name": "Aircel Chennai Open",
+    "area_name": "India",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "3",
+    "name": "Qatar ExxonMobil Open",
+    "area_name": "Qatar",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "4",
+    "name": "Apia International Sydney",
+    "area_name": "Australia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "5",
+    "name": "Heineken Open",
+    "area_name": "Nuova Zelanda",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "6",
+    "name": "Australian Open",
+    "area_name": "Australia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "8",
+    "name": "PBZ Zagreb Indoors",
+    "area_name": "Croazia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "10",
+    "name": "SAP Open",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "11",
+    "name": "ABN AMRO World Tennis Tournament",
+    "area_name": "Paesi Bassi",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "12",
+    "name": "Brasil Open",
+    "area_name": "Brasile",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "13",
+    "name": "Open 13",
+    "area_name": "Francia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "15",
+    "name": "Argentina Open",
+    "area_name": "Argentina",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "16",
+    "name": "Dubai Tennis Championships",
+    "area_name": "Emirati Arabi Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "18",
+    "name": "BNP Paribas Open",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "19",
+    "name": "Miami Open",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "20",
+    "name": "Grand Prix Hassan II",
+    "area_name": "Marocco",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "21",
+    "name": "US Men's Clay Court Championship",
+    "area_name": "Stati Uniti",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "22",
+    "name": "Monte-Carlo Rolex Masters",
+    "area_name": "Monaco",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "23",
+    "name": "Barcelona Open BancSabadell",
+    "area_name": "Spagna",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "24",
+    "name": "Internazionali BNL d'Italia",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "25",
+    "name": "Delray Beach Open",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "36",
+    "name": "Abierto Mexicano TELCEL",
+    "area_name": "Messico",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "37",
+    "name": "Malaysia Open",
+    "area_name": "Malesia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "47",
+    "name": "Portugal Open",
+    "area_name": "Portogallo",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "49",
+    "name": "BMW Open",
+    "area_name": "Germania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "52",
+    "name": "Mutua Madrid Open",
+    "area_name": "Spagna",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "55",
+    "name": "Open de Nice Côte d’Azur",
+    "area_name": "Francia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "57",
+    "name": "French Open",
+    "area_name": "Francia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "59",
+    "name": "AEGON Championships",
+    "area_name": "Inghilterra",
+    "court": "Grass"
+  },
+  {
+    "competition_id": "61",
+    "name": "Gerry Weber Open",
+    "area_name": "Germania",
+    "court": "Grass"
+  },
+  {
+    "competition_id": "63",
+    "name": "Ricoh Open",
+    "area_name": "Paesi Bassi",
+    "court": "Grass"
+  },
+  {
+    "competition_id": "64",
+    "name": "AEGON International",
+    "area_name": "Inghilterra",
+    "court": "Grass"
+  },
+  {
+    "competition_id": "66",
+    "name": "Wimbledon",
+    "area_name": "Inghilterra",
+    "court": "Grass"
+  },
+  {
+    "competition_id": "67",
+    "name": "Hall of Fame Tennis Championships",
+    "area_name": "Stati Uniti",
+    "court": "Grass"
+  },
+  {
+    "competition_id": "68",
+    "name": "MercedesCup",
+    "area_name": "Germania",
+    "court": "Grass"
+  },
+  {
+    "competition_id": "69",
+    "name": "Swedish Open",
+    "area_name": "Svezia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "70",
+    "name": "bet-at-home Open",
+    "area_name": "Germania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "71",
+    "name": "BB&T Atlanta Open",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "72",
+    "name": "Credit Agricole Suisse Open Gstaad",
+    "area_name": "Svizzera",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "74",
+    "name": "Vegeta Croatia Open Umag",
+    "area_name": "Croazia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "75",
+    "name": "Citi Open",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "76",
+    "name": "Rogers Cup",
+    "area_name": "Canada",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "77",
+    "name": "Western & Southern Open",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "79",
+    "name": "US Open",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "80",
+    "name": "Open de Moselle",
+    "area_name": "Francia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "81",
+    "name": "BRD Nastase Tiriac Trophy ",
+    "area_name": "Romania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "82",
+    "name": "PTT Thailand Open",
+    "area_name": "Thailandia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "84",
+    "name": "China Open",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "85",
+    "name": "Rakuten Japan Open",
+    "area_name": "Giappone",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "86",
+    "name": "Shanghai Rolex Masters",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "87",
+    "name": "If Stockholm Open",
+    "area_name": "Svezia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "88",
+    "name": "Kremlin Cup",
+    "area_name": "Russia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "89",
+    "name": "St. Petersburg Open",
+    "area_name": "Russia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "90",
+    "name": "Erste Bank Open",
+    "area_name": "Austria",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "91",
+    "name": "Open Sud de France",
+    "area_name": "Francia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "92",
+    "name": "Valencia Open",
+    "area_name": "Spagna",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "93",
+    "name": "Swiss Indoors Basel",
+    "area_name": "Svizzera",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "94",
+    "name": "BNP Paribas Masters",
+    "area_name": "Francia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "95",
+    "name": "Barclays ATP World Tour Finals",
+    "area_name": "Inghilterra",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "130",
+    "name": "Winston-Salem Open",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "198",
+    "name": "U.S. National Indoor Tennis Championships",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "266",
+    "name": "Bet-At-Home Cup Kitzbühel",
+    "area_name": "Austria",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "389",
+    "name": "Royal Guard Open Chile",
+    "area_name": "Cile",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "430",
+    "name": "Düsseldorf Open",
+    "area_name": "Germania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "431",
+    "name": "Shenzhen Open",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "433",
+    "name": "Claro Open Colombia",
+    "area_name": "Colombia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "462",
+    "name": "Rio Open",
+    "area_name": "Brasile",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "508",
+    "name": "Ecuador Open Quito",
+    "area_name": "Ecuador",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "509",
+    "name": "Istanbul Open",
+    "area_name": "Turchia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "510",
+    "name": "Aegon Nottingham Open",
+    "area_name": "Inghilterra",
+    "court": "Grass"
+  },
+  {
+    "competition_id": "523",
+    "name": "Millennium Estoril Open",
+    "area_name": "Portogallo",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "529",
+    "name": "Geneva Open",
+    "area_name": "Svizzera",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "550",
+    "name": "Sofia Open",
+    "area_name": "Bulgaria",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "573",
+    "name": "Los Cabos Open",
+    "area_name": "Messico",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "577",
+    "name": "Chengdu Open",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "579",
+    "name": "European Open",
+    "area_name": "Belgio",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "14",
+    "name": "Memphis WTA International Event",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "27",
+    "name": "ASB Classic",
+    "area_name": "Nuova Zelanda",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "29",
+    "name": "Moorilla Hobart International",
+    "area_name": "Australia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "31",
+    "name": "Open GDF SUEZ",
+    "area_name": "Francia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "32",
+    "name": "PTT Pattaya Open",
+    "area_name": "Thailandia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "35",
+    "name": "Copa Claro Colsanitas",
+    "area_name": "Colombia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "38",
+    "name": "Monterrey Open",
+    "area_name": "Messico",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "43",
+    "name": "Family Circle Cup",
+    "area_name": "Stati Uniti",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "45",
+    "name": "Porsche Tennis Grand Prix",
+    "area_name": "Germania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "46",
+    "name": "Grand Prix de SAR La Princesse Lalla Meryem",
+    "area_name": "Marocco",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "56",
+    "name": "Internationaux de Strasbourg",
+    "area_name": "Francia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "60",
+    "name": "AEGON Classic",
+    "area_name": "Inghilterra",
+    "court": "Grass"
+  },
+  {
+    "competition_id": "97",
+    "name": "Budapest Grand Prix",
+    "area_name": "Ungheria",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "98",
+    "name": "Sony Ericsson Swedish Open",
+    "area_name": "Svezia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "99",
+    "name": "XXV Italiacom Open",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "100",
+    "name": "ECM Prague Open",
+    "area_name": "Repubblica Ceca",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "102",
+    "name": "NURNBERGER Gastein ladies",
+    "area_name": "Austria",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "103",
+    "name": "Bank of the West Classic",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "104",
+    "name": "Istanbul Cup",
+    "area_name": "Turchia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "105",
+    "name": "Mercury Insurance Open",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "111",
+    "name": "GRC Bank Guangzhou International Women's Open",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "112",
+    "name": "Bell Challenge",
+    "area_name": "Canada",
+    "court": "Carpet"
+  },
+  {
+    "competition_id": "113",
+    "name": "KDB Korea Open",
+    "area_name": "Corea del Sud",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "114",
+    "name": "Tashkent Open",
+    "area_name": "Uzbekistan",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "115",
+    "name": "Toray Pan Pacific Open",
+    "area_name": "Giappone",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "117",
+    "name": "Generali Ladies Linz",
+    "area_name": "Austria",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "118",
+    "name": "HP Japan Women's Open",
+    "area_name": "Giappone",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "120",
+    "name": "BGL Luxembourg Open",
+    "area_name": "Lussemburgo",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "122",
+    "name": "Huajin Securities WTA Elite Trophy",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "123",
+    "name": "WTA Championship",
+    "area_name": "Mondo",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "124",
+    "name": "Qatar Total Open",
+    "area_name": "Qatar",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "125",
+    "name": "Brussels Ladies Open",
+    "area_name": "Belgio",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "126",
+    "name": "Baku Cup",
+    "area_name": "Azerbaigian",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "127",
+    "name": "Southern California Open",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "128",
+    "name": "New Haven Open",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "294",
+    "name": "Open Bogotá",
+    "area_name": "Colombia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "428",
+    "name": "WTA Brasil Tennis",
+    "area_name": "Brasile",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "429",
+    "name": "BNP Paribas Katowice Open",
+    "area_name": "Polonia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "436",
+    "name": "Copa Bionaire",
+    "area_name": "Colombia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "437",
+    "name": "NURNBERGER Versicherungscup",
+    "area_name": "Germania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "470",
+    "name": "Hong Kong Open",
+    "area_name": "Hong Kong",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "471",
+    "name": "Wuhan Open",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "472",
+    "name": "Tianjin Open",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "491",
+    "name": "Bucharest Open",
+    "area_name": "Romania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "511",
+    "name": "Proximus Diamond Games",
+    "area_name": "Belgio",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "551",
+    "name": "St. Petersburg Ladies Trophy",
+    "area_name": "Russia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "552",
+    "name": "Taiwan Open",
+    "area_name": "Cina Taipei",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "553",
+    "name": "Mallorca Open",
+    "area_name": "Spagna",
+    "court": "Grass"
+  },
+  {
+    "competition_id": "554",
+    "name": "Louisville International Open",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "572",
+    "name": "Ladies Championship Gstaad",
+    "area_name": "Svizzera",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "574",
+    "name": "Jiangxi Open",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "583",
+    "name": "Swiss Women's Championship Biel",
+    "area_name": "Svizzera",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "584",
+    "name": "Taipei WTA Challenger",
+    "area_name": "Cina Taipei",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "131",
+    "name": "Prime Cup Aberto de São Paulo",
+    "area_name": "Brasile",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "132",
+    "name": "Internationaux de Nouvelle-Calédonie",
+    "area_name": "Nuova Caledonia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "133",
+    "name": "Intersport Heilbronn Open",
+    "area_name": "Germania",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "135",
+    "name": "Royal Lahaina Challenger",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "136",
+    "name": "Seguros Bolívar Open Bucaramanga",
+    "area_name": "Colombia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "137",
+    "name": "Reunion Island Challenger",
+    "area_name": "Dipartimento di Riunione",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "138",
+    "name": "McDonald's Burnie International",
+    "area_name": "Australia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "139",
+    "name": "Kazan Kremlin Cup",
+    "area_name": "Russia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "141",
+    "name": "ATP Challenger Bergamo",
+    "area_name": "Italia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "143",
+    "name": "Quimper Challenger",
+    "area_name": "Francia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "144",
+    "name": "Morocco Tennis Tour Meknes",
+    "area_name": "Marocco",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "145",
+    "name": "Morocco Tennis Tour – Casablanca",
+    "area_name": "Marocco",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "147",
+    "name": "Challenger DCNS de Cherbourg",
+    "area_name": "Francia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "148",
+    "name": "Challenger of Dallas",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "149",
+    "name": "Challenger ATP de Salinas Diario Expreso",
+    "area_name": "Ecuador",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "237",
+    "name": "All Japan Indoor Tennis Championships",
+    "area_name": "Giappone",
+    "court": "Carpet"
+  },
+  {
+    "competition_id": "238",
+    "name": "Cachantun Cup",
+    "area_name": "Cile",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "239",
+    "name": "BH Telecom Indoor",
+    "area_name": "Bosnia-Erzegovina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "240",
+    "name": "ATP Challenger Guangzhou",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "241",
+    "name": "Orange Open Guadeloupe",
+    "area_name": "Guadeloupe",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "243",
+    "name": "Men's Rimouski Challenger",
+    "area_name": "Canada",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "245",
+    "name": "Seguros Bolivar Open Pereira",
+    "area_name": "Colombia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "249",
+    "name": "Citta' Di Caltanissetta",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "252",
+    "name": "Taroii Open de Tênis",
+    "area_name": "Brasile",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "253",
+    "name": "XV Open Barletta",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "254",
+    "name": "Seguros Bolivar Open Barranquilla",
+    "area_name": "Colombia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "255",
+    "name": "Saint-Brieuc Challenger",
+    "area_name": "Francia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "256",
+    "name": "Poznan Open",
+    "area_name": "Polonia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "257",
+    "name": "Atp Orbetello Challenger",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "258",
+    "name": "VIII Manta Open",
+    "area_name": "Ecuador",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "260",
+    "name": "Sarasota Open",
+    "area_name": "Stati Uniti",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "261",
+    "name": "Soweto Open Johannesburg",
+    "area_name": "Sud Africa",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "262",
+    "name": "Rai Open",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "263",
+    "name": "Prosperita Open-Ostrava",
+    "area_name": "Repubblica Ceca",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "264",
+    "name": "Tallahassee Tennis Challenger",
+    "area_name": "Stati Uniti",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "265",
+    "name": "Tennis Napoli Cup",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "267",
+    "name": "Santos Brasil Tennis Open",
+    "area_name": "Brasile",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "268",
+    "name": "Torneo Internacional AGT - Leon",
+    "area_name": "Messico",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "269",
+    "name": "Roma Open-Rome",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "270",
+    "name": "Savannah Challenger",
+    "area_name": "Stati Uniti",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "271",
+    "name": "BNP Paribas Primrose Bordeaux",
+    "area_name": "Francia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "275",
+    "name": "Fergana Challenger",
+    "area_name": "Uzbekistan",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "277",
+    "name": "Franken Challenger - Furth",
+    "area_name": "Germania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "278",
+    "name": "Aegon Surbiton Trophy",
+    "area_name": "Great Britain",
+    "court": "Grass"
+  },
+  {
+    "competition_id": "279",
+    "name": "Unicredit Czech Open - Prostejov",
+    "area_name": "Repubblica Ceca",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "281",
+    "name": "Kosice Open",
+    "area_name": "Slovacchia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "282",
+    "name": "Aegon Nottingham Challenge",
+    "area_name": "Great Britain",
+    "court": "Grass"
+  },
+  {
+    "competition_id": "283",
+    "name": "Aspria Tennis Cup - Milan",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "284",
+    "name": "Jalisco Open -  Guadalajara",
+    "area_name": "Messico",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "285",
+    "name": "Marburg open - Germany",
+    "area_name": "Germania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "286",
+    "name": "Sparkassen Open -  Braunschweig",
+    "area_name": "Germania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "287",
+    "name": "Sporting Challenger - Turin",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "288",
+    "name": "Nielsen Pro Tennis Championships",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "289",
+    "name": "Oberstaufen Cup -  Oberstaufe",
+    "area_name": "Germania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "291",
+    "name": "San Benedetto del Trono",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "292",
+    "name": "The Hague Open - Scheveningen",
+    "area_name": "Paesi Bassi",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "293",
+    "name": "The Comerica Bank Challenger - Aptos",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "295",
+    "name": "Challenger Banque Nationale de Drummondville",
+    "area_name": "Canada",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "298",
+    "name": "Kentucky Bank Tennis Championships",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "303",
+    "name": "San Marino CEPU Open",
+    "area_name": "San Marino",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "304",
+    "name": "Presidents Cup",
+    "area_name": "Kazakistan",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "306",
+    "name": "Guzzini Challenger",
+    "area_name": "Italia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "307",
+    "name": "Tampere Open",
+    "area_name": "Finlandia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "311",
+    "name": "Trophee Des Alpilles",
+    "area_name": "Francia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "313",
+    "name": "Internazionali di Tennis dell'Umbria",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "315",
+    "name": "Turk Telekom Izmir Cup",
+    "area_name": "Turchia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "316",
+    "name": "Seguros Bolivar Open Cali",
+    "area_name": "Colombia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "317",
+    "name": "Tetra Pak Tennis Cup -  Campinas",
+    "area_name": "Brasile",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "319",
+    "name": "Tashkent Challenger",
+    "area_name": "Uzbekistan",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "320",
+    "name": "ATP Challenger Trophy Trnava",
+    "area_name": "Slovacchia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "323",
+    "name": "Ningbo Challenger",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "326",
+    "name": "Ethias Trophy",
+    "area_name": "Belgio",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "328",
+    "name": "TEAN International",
+    "area_name": "Paesi Bassi",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "329",
+    "name": "Natomas Men's Professional Tennis Tournament",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "330",
+    "name": "Open De Rennes",
+    "area_name": "Francia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "332",
+    "name": "Open D'Orleans",
+    "area_name": "Francia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "333",
+    "name": "Quito Challenger",
+    "area_name": "Ecuador",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "334",
+    "name": "Samsung Securities Cup",
+    "area_name": "Corea del Sud",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "336",
+    "name": "BVA Open",
+    "area_name": "Brasile",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "337",
+    "name": "Pekao Szczecin Open",
+    "area_name": "Polonia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "338",
+    "name": "BRD Brașov Challenger",
+    "area_name": "Romania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "339",
+    "name": "Aon Open Challenger Genova",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "341",
+    "name": "Seguros Bolivar Open Medellin",
+    "area_name": "Colombia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "342",
+    "name": "Copa Sevilla",
+    "area_name": "Spagna",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "344",
+    "name": "Bauer Watertechnology Cup",
+    "area_name": "Germania",
+    "court": "Carpet"
+  },
+  {
+    "competition_id": "345",
+    "name": "Shanghai Challenger",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "346",
+    "name": "Banja Luka Challenger",
+    "area_name": "Bosnia-Erzegovina",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "347",
+    "name": "Copa Topper",
+    "area_name": "Argentina",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "348",
+    "name": "Sparkassen Challenger",
+    "area_name": "Italia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "349",
+    "name": "Knoxville Challenger",
+    "area_name": "Stati Uniti",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "352",
+    "name": "ATP Challenger Tour Finals",
+    "area_name": "Brasile",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "353",
+    "name": "Slovak Open",
+    "area_name": "Slovacchia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "355",
+    "name": "JSM Challenger of Champaign",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "357",
+    "name": "IPP Open",
+    "area_name": "Finlandia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "358",
+    "name": "Challenger Ciudad de Guayaquil",
+    "area_name": "Ecuador",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "359",
+    "name": "Dunlop World Challenge",
+    "area_name": "Giappone",
+    "court": "Carpet"
+  },
+  {
+    "competition_id": "361",
+    "name": "PTT Cup",
+    "area_name": "Turchia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "362",
+    "name": "Geneva Challenger presented by IPP",
+    "area_name": "Svizzera",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "364",
+    "name": "Beijing International Challenger",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "366",
+    "name": "Odlum Brown Vancouver Open",
+    "area_name": "Canada",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "367",
+    "name": "Levene, Gouldin & Thompson Tennis Challenger",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "368",
+    "name": "Samarkand Challenger",
+    "area_name": "Uzbekistan",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "369",
+    "name": "Credit Agricole Friuladria Tennis Cup",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "370",
+    "name": "Karshi Challenger",
+    "area_name": "Uzbekistan",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "372",
+    "name": "Astana Cup",
+    "area_name": "Kazakistan",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "373",
+    "name": "Antonio Savoldi–Marco Cò – Trofeo Dimmidisì",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "374",
+    "name": "Chang-Sat Bangkok Open",
+    "area_name": "Thailandia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "375",
+    "name": "Citta di Como Challenger",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "377",
+    "name": "Busan Open Challenger Tennis",
+    "area_name": "Corea del Sud",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "379",
+    "name": "Open Castilla y Leon",
+    "area_name": "Spagna",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "393",
+    "name": "San Luis Potosí Challenger",
+    "area_name": "Messico",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "394",
+    "name": "Mersin Challenger",
+    "area_name": "Turchia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "395",
+    "name": "Kaohsiung Challenger",
+    "area_name": "Cina Taipei",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "396",
+    "name": "São Paulo Challenger",
+    "area_name": "Brasile",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "397",
+    "name": "Tunis Open",
+    "area_name": "Tunisia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "398",
+    "name": "Dallas Tennis Classic",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "399",
+    "name": "Arad Challenger",
+    "area_name": "Romania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "400",
+    "name": "Rio Quente Resorts Tennis Classic",
+    "area_name": "Brasile",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "401",
+    "name": "Lima Challenger",
+    "area_name": "Peru",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "402",
+    "name": "Visit Panama Cup",
+    "area_name": "Panama",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "404",
+    "name": "Timisoara Challenger",
+    "area_name": "Romania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "406",
+    "name": "ATP China International Tennis Challenge",
+    "area_name": "Cina",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "407",
+    "name": "BRD Sibiu Challenger",
+    "area_name": "Romania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "409",
+    "name": "ATP Roller Open",
+    "area_name": "Lussemburgo",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "410",
+    "name": "Uruguay Open",
+    "area_name": "Uruguay",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "413",
+    "name": "Campeonato Internacional de Tênis de Campinas",
+    "area_name": "Brasile",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "414",
+    "name": "Aberto de Tênis do Rio Grande do Sul",
+    "area_name": "Brasile",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "417",
+    "name": "Copa San Juan Gobierno",
+    "area_name": "Argentina",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "418",
+    "name": "Tiburon Challenger",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "419",
+    "name": "Peugeot Tennis Cup",
+    "area_name": "Brasile",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "420",
+    "name": "Copa Agco Cordoba",
+    "area_name": "Argentina",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "422",
+    "name": "Charlottesville Men's Pro Challenger",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "423",
+    "name": "Keio Challenger",
+    "area_name": "Giappone",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "424",
+    "name": "Siberia Cup",
+    "area_name": "Russia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "426",
+    "name": "Charles Sturt Adelaide International",
+    "area_name": "Australia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "434",
+    "name": "Sydney - Challenger",
+    "area_name": "Australia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "435",
+    "name": "Copa Internacional de Tenis Total Digest",
+    "area_name": "Messico",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "438",
+    "name": "Kunming Challenger",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "439",
+    "name": "Blois Challenger",
+    "area_name": "Francia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "440",
+    "name": "Prague Challenger",
+    "area_name": "Repubblica Ceca",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "441",
+    "name": "Tanger",
+    "area_name": "Marocco",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "442",
+    "name": "Portoroz Challenger",
+    "area_name": "Slovenia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "444",
+    "name": "Eskisehir Challenger",
+    "area_name": "Turchia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "445",
+    "name": "Guimaraes Challenger",
+    "area_name": "Portogallo",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "446",
+    "name": "Sao paulo Challenger-3",
+    "area_name": "Brasile",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "447",
+    "name": "Liberec Challenger",
+    "area_name": "Repubblica Ceca",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "448",
+    "name": "Meerbusch Challenger",
+    "area_name": "Germania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "449",
+    "name": "Kenitra Challenger",
+    "area_name": "Marocco",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "450",
+    "name": "Napa Challenger",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "452",
+    "name": "Sao Paulo Challenger-4",
+    "area_name": "Brasile",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "453",
+    "name": "Mendoza Challenger",
+    "area_name": "Argentina",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "454",
+    "name": "PTT İstanbul Cup",
+    "area_name": "Turchia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "455",
+    "name": "Mouilleron-le-Captif Challenger",
+    "area_name": "Francia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "456",
+    "name": "Kazan Challenger 2",
+    "area_name": "Russia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "457",
+    "name": "Melbourne Challenger",
+    "area_name": "Australia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "458",
+    "name": "Traralgon Challenger",
+    "area_name": "Australia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "460",
+    "name": "Yeongwol Challenger Tennis",
+    "area_name": "Corea del Sud",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "461",
+    "name": "Internazionali di Tennis Città di Andria Castel del Monte",
+    "area_name": "Italia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "463",
+    "name": "Chitré Challenger",
+    "area_name": "Panama",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "464",
+    "name": "Chennai Challenger",
+    "area_name": "India",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "465",
+    "name": "Istanbul Challenger",
+    "area_name": "Turchia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "466",
+    "name": "Kolkata Challenger",
+    "area_name": "India",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "467",
+    "name": "New Delhi Challenger",
+    "area_name": "India",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "468",
+    "name": "Morelos Challenger",
+    "area_name": "Messico",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "473",
+    "name": "Shenzhen Challenger",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "474",
+    "name": "Vercelli Challenger",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "475",
+    "name": "Aix-en-Provence Challenger",
+    "area_name": "Francia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "476",
+    "name": "Gimcheon Challenger",
+    "area_name": "Corea del Sud",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "477",
+    "name": "Heilbronn Tennis Challenger",
+    "area_name": "Germania",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "478",
+    "name": "Vicenza Challenger",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "479",
+    "name": "Mestre Challenger",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "481",
+    "name": "Mohammedia Challenger",
+    "area_name": "Marocco",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "483",
+    "name": "Tianjin Challenger",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "485",
+    "name": "Nanchang Challenger",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "487",
+    "name": "Padova Challenger",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "489",
+    "name": "Taipei Challenger",
+    "area_name": "Cina Taipei",
+    "court": "Carpet"
+  },
+  {
+    "competition_id": "493",
+    "name": "Granby Challenger",
+    "area_name": "Canada",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "495",
+    "name": "Cortina Challenger",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "497",
+    "name": "Prague Challenger II",
+    "area_name": "Repubblica Ceca",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "499",
+    "name": "Biella Challenger",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "501",
+    "name": "Indore Challenger",
+    "area_name": "India",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "503",
+    "name": "Pune Challenger",
+    "area_name": "India",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "505",
+    "name": "Traralgon Challenger 2",
+    "area_name": "Australia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "507",
+    "name": "Brescia Challenger",
+    "area_name": "Italia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "512",
+    "name": "City of Onkaparinga ATP Challenger",
+    "area_name": "Australia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "513",
+    "name": "Hong Kong Challenger",
+    "area_name": "Hong Kong",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "514",
+    "name": "Glasgow Challenger",
+    "area_name": "Great Britain",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "515",
+    "name": "Launceston Challenger",
+    "area_name": "Australia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "516",
+    "name": "Santo Domingo Challenger",
+    "area_name": "Repubblica Dominicana",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "517",
+    "name": "Wrocław Challenger",
+    "area_name": "Polonia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "519",
+    "name": "Ra'anana Challenger",
+    "area_name": "Israele",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "520",
+    "name": "Batman Challenger",
+    "area_name": "Turchia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "524",
+    "name": "Manchester Open",
+    "area_name": "Inghilterra",
+    "court": "Grass"
+  },
+  {
+    "competition_id": "525",
+    "name": "Moscow Challenger",
+    "area_name": "Russia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "526",
+    "name": "Poprad Challenger",
+    "area_name": "Slovacchia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "527",
+    "name": "Ilkley Challenger",
+    "area_name": "Inghilterra",
+    "court": "Grass"
+  },
+  {
+    "competition_id": "528",
+    "name": "Perugia Challenger",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "530",
+    "name": "Cary Challenger",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "532",
+    "name": "Columbus Challenger",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "533",
+    "name": "Ağrı Challenger",
+    "area_name": "Turchia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "534",
+    "name": "BFD Energy Challenger",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "536",
+    "name": "São Paulo Challenger 2",
+    "area_name": "Brasile",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "537",
+    "name": "Casablanca 2",
+    "area_name": "Marocco",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "538",
+    "name": "Fairfield Challenger",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "539",
+    "name": "Corrientes Challenger",
+    "area_name": "Argentina",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "540",
+    "name": "Ho Chi Minh City Challenger",
+    "area_name": "Vietnam",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "541",
+    "name": "Brest Challenger",
+    "area_name": "Francia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "542",
+    "name": "Las Vegas Challenger",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "543",
+    "name": "Bangalore Challenger",
+    "area_name": "India",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "544",
+    "name": "Santiago Challenger",
+    "area_name": "Cile",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "545",
+    "name": "Monterrey Challenger",
+    "area_name": "Messico",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "546",
+    "name": "Suzhou Challenger",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "547",
+    "name": "Canberra Challenger",
+    "area_name": "Australia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "548",
+    "name": "Hua Hin Challenger",
+    "area_name": "Thailandia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "549",
+    "name": "Kobe Challenger",
+    "area_name": "Giappone",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "555",
+    "name": "Bangkok Challenger 2",
+    "area_name": "Thailandia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "556",
+    "name": "Buenos Aires Challenger",
+    "area_name": "Argentina",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "557",
+    "name": "Manila Challenger",
+    "area_name": "Filippine",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "559",
+    "name": "Puebla Challenger",
+    "area_name": "Messico",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "560",
+    "name": "Jonkoping Challenger",
+    "area_name": "Svezia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "561",
+    "name": "Gwangju Challenger",
+    "area_name": "Corea del Sud",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "562",
+    "name": "Nanjing Challenger",
+    "area_name": "Cina",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "563",
+    "name": "Zhuhai Challenger",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "564",
+    "name": "KPN Bangkok Open III",
+    "area_name": "Thailandia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "565",
+    "name": "Open Sopra Steria de Lyon",
+    "area_name": "Francia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "566",
+    "name": "Bastad Challenger",
+    "area_name": "Svezia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "567",
+    "name": "Winnipeg National Bank Challenger",
+    "area_name": "Canada",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "568",
+    "name": "Chengdu Challenger",
+    "area_name": "Cina",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "569",
+    "name": "Challenger Banque Nationale de Gatineau",
+    "area_name": "Canada",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "570",
+    "name": "Fano Challenger",
+    "area_name": "Italia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "571",
+    "name": "Curitiba Challenger",
+    "area_name": "Brasile",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "575",
+    "name": "Qingdao  Challenger",
+    "area_name": "Cina",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "576",
+    "name": "Wind Energy Holding Bangkok Open",
+    "area_name": "Thailandia",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "578",
+    "name": "Stockton Challenger",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "580",
+    "name": "WHB Hungarian Open",
+    "area_name": "Ungheria",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "581",
+    "name": "Columbus Challenger II",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "582",
+    "name": "Astana Challenger Capital Cup",
+    "area_name": "Kazakistan",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "585",
+    "name": "Koblenz Open",
+    "area_name": "Germania",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "586",
+    "name": "Kunal Patel San Francisco Open",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "587",
+    "name": "Arizona Men's Pro Circuit Challenger",
+    "area_name": "Stati Uniti",
+    "court": "Hard"
+  },
+  {
+    "competition_id": "588",
+    "name": "Sophia Antipolis Challenger",
+    "area_name": "Francia",
+    "court": "Clay"
+  },
+  {
+    "competition_id": "412",
+    "name": "Olympics",
+    "area_name": "Mondo",
+    "court": "Grass"
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "people_id": "16685",
+    "name": "A. Murray",
+    "country": "GBR",
+    "points": "11540",
+    "position": "1"
+  },
+  {
+    "people_id": "6194",
+    "name": "N. Djokovic",
+    "country": "SER",
+    "points": "9825",
+    "position": "2"
+  },
+  {
+    "people_id": "25912",
+    "name": "S. Wawrinka",
+    "country": "CHE",
+    "points": "5695",
+    "position": "3"
+  },
+  {
+    "people_id": "19853",
+    "name": "M. Raonic",
+    "country": "CAN",
+    "points": "4930",
+    "position": "4"
+  },
+  {
+    "people_id": "17205",
+    "name": "K. Nishikori",
+    "country": "JPN",
+    "points": "4830",
+    "position": "5"
+  },
+  {
+    "people_id": "16754",
+    "name": "R. Nadal",
+    "country": "ESP",
+    "points": "4385",
+    "position": "6"
+  },
+  {
+    "people_id": "4635",
+    "name": "M. Čilić",
+    "country": "HRV",
+    "points": "3560",
+    "position": "7"
+  },
+  {
+    "people_id": "28295",
+    "name": "D. Thiem",
+    "country": "AUT",
+    "points": "3505",
+    "position": "8"
+  },
+  {
+    "people_id": "16145",
+    "name": "G. Monfils",
+    "country": "FRA",
+    "points": "3445",
+    "position": "9"
+  },
+  {
+    "people_id": "7265",
+    "name": "R. Federer",
+    "country": "CHE",
+    "points": "3260",
+    "position": "10"
+  },
+  {
+    "people_id": "8691",
+    "name": "D. Goffin",
+    "country": "BEL",
+    "points": "2930",
+    "position": "11"
+  },
+  {
+    "people_id": "2308",
+    "name": "T. Berdych",
+    "country": "CZE",
+    "points": "2790",
+    "position": "12"
+  },
+  {
+    "people_id": "6137",
+    "name": "G. Dimitrov",
+    "country": "BGR",
+    "points": "2765",
+    "position": "13"
+  },
+  {
+    "people_id": "24615",
+    "name": "J. Tsonga",
+    "country": "FRA",
+    "points": "2685",
+    "position": "14"
+  },
+  {
+    "people_id": "29072",
+    "name": "N. Kyrgios",
+    "country": "AUS",
+    "points": "2415",
+    "position": "15"
+  },
+  {
+    "people_id": "1969",
+    "name": "R. Bautista-Agut",
+    "country": "ESP",
+    "points": "2350",
+    "position": "16"
+  },
+  {
+    "people_id": "19248",
+    "name": "L. Pouille",
+    "country": "FRA",
+    "points": "2131",
+    "position": "17"
+  },
+  {
+    "people_id": "8294",
+    "name": "R. Gasquet",
+    "country": "FRA",
+    "points": "1975",
+    "position": "18"
+  },
+  {
+    "people_id": "11717",
+    "name": "I. Karlović",
+    "country": "HRV",
+    "points": "1875",
+    "position": "19"
+  },
+  {
+    "people_id": "22827",
+    "name": "J. Sock",
+    "country": "USA",
+    "points": "1855",
+    "position": "20"
+  },
+  {
+    "people_id": "5254",
+    "name": "P. Cuevas",
+    "country": "URY",
+    "points": "1745",
+    "position": "21"
+  },
+  {
+    "people_id": "28728",
+    "name": "A. Zverev",
+    "country": "DEU",
+    "points": "1735",
+    "position": "22"
+  },
+  {
+    "people_id": "10868",
+    "name": "J. Isner",
+    "country": "USA",
+    "points": "1715",
+    "position": "23"
+  },
+  {
+    "people_id": "22501",
+    "name": "G. Simon",
+    "country": "FRA",
+    "points": "1495",
+    "position": "24"
+  },
+  {
+    "people_id": "7411",
+    "name": "D. Ferrer",
+    "country": "ESP",
+    "points": "1470",
+    "position": "25"
+  },
+  {
+    "people_id": "3925",
+    "name": "P. Carreno-Busta",
+    "country": "ESP",
+    "points": "1450",
+    "position": "26"
+  },
+  {
+    "people_id": "19537",
+    "name": "S. Querrey",
+    "country": "USA",
+    "points": "1435",
+    "position": "27"
+  },
+  {
+    "people_id": "16583",
+    "name": "G. Muller",
+    "country": "LUX",
+    "points": "1415",
+    "position": "28"
+  },
+  {
+    "people_id": "12422",
+    "name": "P. Kohlschreiber",
+    "country": "DEU",
+    "points": "1405",
+    "position": "29"
+  },
+  {
+    "people_id": "19785",
+    "name": "A. Ramos",
+    "country": "ESP",
+    "points": "1400",
+    "position": "30"
+  }
+]
